@@ -1,13 +1,13 @@
-Info 0    [02:24:41.727] Starting TS Server
-Info 1    [02:24:41.727] Version: 4.5.4
-Info 2    [02:24:41.727] Arguments: /usr/bin/node /home/rodrigo/Workspace/wikidex-learning-react/node_modules/typescript/lib/tsserver.js --logFile /home/rodrigo/Workspace/wikidex-learning-react/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/9deba1617191b220d744f0927b484a2e/tscancellation*
-Info 3    [02:24:41.728] Platform: linux NodeVersion: 17 CaseSensitive: true
-Info 4    [02:24:41.728] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [02:24:41.743] Format host information updated
-Info 6    [02:24:41.746] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src
-Info 7    [02:24:41.747] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/App.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 8    [02:24:41.747] Creating configuration project /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 9    [02:24:41.768] Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json : {
+Info 0    [19:30:09.866] Starting TS Server
+Info 1    [19:30:09.904] Version: 4.5.4
+Info 2    [19:30:09.904] Arguments: /usr/bin/node /home/rodrigo/Workspace/wikidex-learning-react/node_modules/typescript/lib/tsserver.js --logFile /home/rodrigo/Workspace/wikidex-learning-react/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/e844063a03213aeccfc2a5782439229e/tscancellation*
+Info 3    [19:30:09.904] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [19:30:09.904] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:30:09.941] Format host information updated
+Info 6    [19:30:09.944] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src
+Info 7    [19:30:09.945] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/App.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 8    [19:30:09.945] Creating configuration project /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 9    [19:30:10.164] Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json : {
  "rootNames": [
   "/home/rodrigo/Workspace/wikidex-learning-react/src/App.js",
   "/home/rodrigo/Workspace/wikidex-learning-react/src/App.test.js",
@@ -22,10 +22,21 @@ Info 9    [02:24:41.768] Config: /home/rodrigo/Workspace/wikidex-learning-react/
   "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Navbar/SearchButton.js",
   "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Navbar/UserButton.js",
   "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/InputGeneration.js",
-  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokeballInput.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokeballIcon.js",
   "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokemonGenerationMenu.js",
   "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokemonList.js",
-  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Shared/HeaderSection.js"
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/PokemonDexNumber.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/PokemonName.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/PokemonTable.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/Sprite.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/TableBody.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/TableHeader.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/Types.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Shared/Card.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Shared/HeaderSection.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Shared/Spinner.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/components/Shared/Type.js",
+  "/home/rodrigo/Workspace/wikidex-learning-react/src/services/PokemonFetcher.js"
  ],
  "options": {
   "allowJs": true,
@@ -38,265 +49,1192 @@ Info 9    [02:24:41.768] Config: /home/rodrigo/Workspace/wikidex-learning-react/
   "configFilePath": "/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json"
  }
 }
-Info 10   [02:24:42.161] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 11   [02:24:44.584] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 2422.7458650022745ms
-Info 12   [02:24:44.584] Project '/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json' (Configured)
-Info 13   [02:24:44.584] 	Files (250)
+Info 10   [19:30:32.420] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 11   [19:30:36.565] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4144.427846997976ms
+Info 12   [19:30:36.565] Project '/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json' (Configured)
+Info 13   [19:30:36.565] 	Files (261)
 
-Info 14   [02:24:44.584] -----------------------------------------------
-Info 15   [02:24:44.599] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 16   [02:24:45.422] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 822.6027339994907ms
-Info 17   [02:24:45.422] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 18   [02:24:45.422] 	Files (164)
+Info 14   [19:30:36.565] -----------------------------------------------
+Info 15   [19:30:36.626] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 16   [19:30:37.709] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1082.4051669985056ms
+Info 17   [19:30:37.709] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 18   [19:30:37.709] 	Files (164)
 
-Info 19   [02:24:45.422] -----------------------------------------------
-Info 20   [02:24:46.574] DirectoryWatcher:: Triggered with /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-42494.log 0:: WatchInfo: /home/rodrigo/Workspace/wikidex-learning-react 1 undefined Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Wild card directory
-Info 21   [02:24:46.574] Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Detected file add/remove of non supported extension: /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-42494.log
-Info 22   [02:24:46.574] Elapsed:: 0.42226599901914597ms DirectoryWatcher:: Triggered with /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-42494.log 0:: WatchInfo: /home/rodrigo/Workspace/wikidex-learning-react 1 undefined Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Wild card directory
-Info 23   [02:24:46.574] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/file-uri-to-path 0:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 24   [02:24:46.574] Elapsed:: 0.20337900519371033ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/file-uri-to-path 0:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 25   [02:24:46.574] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/fsevents 1:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 26   [02:24:46.574] Elapsed:: 0.04959999769926071ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/fsevents 1:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 27   [02:24:46.574] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/nan 2:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 28   [02:24:46.575] Elapsed:: 0.10585900396108627ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/nan 2:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 29   [02:24:46.575] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/bindings 3:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 30   [02:24:46.575] Elapsed:: 0.04186499863862991ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/bindings 3:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 31   [02:24:46.575] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/fsevents 4:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 32   [02:24:46.575] Elapsed:: 0.08852299302816391ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/fsevents 4:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 33   [02:24:46.575] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/bindings 5:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 34   [02:24:46.575] Elapsed:: 0.043143004179000854ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/bindings 5:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 35   [02:24:46.575] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/file-uri-to-path 6:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 36   [02:24:46.575] Elapsed:: 0.030988000333309174ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/file-uri-to-path 6:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 37   [02:24:46.575] DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/nan 7:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 38   [02:24:46.575] Elapsed:: 0.029218003153800964ms DirectoryWatcher:: Triggered with /home/rodrigo/.cache/typescript/4.5/node_modules/nan 7:: WatchInfo: /home/rodrigo/.cache/typescript/4.5/node_modules 1 undefined Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Failed Lookup Locations
-Info 39   [02:24:48.472] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 40   [02:24:48.537] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 64.23086600005627ms
-Info 41   [02:24:48.537] Different program with same set of files
-Info 42   [02:24:48.809] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 43   [02:24:48.852] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 42.375817999243736ms
-Info 44   [02:24:48.852] Different program with same set of files
-Info 45   [02:24:49.228] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 46   [02:24:51.582] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 4 structureChanged: true structureIsReused:: Not Elapsed: 2353.143140003085ms
-Info 47   [02:24:51.582] Project '/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json' (Configured)
-Info 48   [02:24:51.582] 	Files (2043)
+Info 19   [19:30:37.709] -----------------------------------------------
+Info 20   [19:30:38.797] DirectoryWatcher:: Triggered with /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-15041.log 0:: WatchInfo: /home/rodrigo/Workspace/wikidex-learning-react 1 undefined Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Wild card directory
+Info 21   [19:30:38.799] Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Detected file add/remove of non supported extension: /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-15041.log
+Info 22   [19:30:38.799] Elapsed:: 1.374278001487255ms DirectoryWatcher:: Triggered with /home/rodrigo/Workspace/wikidex-learning-react/.log/ti-15041.log 0:: WatchInfo: /home/rodrigo/Workspace/wikidex-learning-react 1 undefined Config: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json WatchType: Wild card directory
+Info 23   [19:30:41.366] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 24   [19:30:49.065] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 7698.995521999896ms
+Info 25   [19:30:49.065] Project '/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json' (Configured)
+Info 26   [19:30:49.065] 	Files (2053)
 
-Info 49   [02:24:51.582] -----------------------------------------------
-Info 50   [02:24:51.582] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 51   [02:24:51.582] 	Files (164)
+Info 27   [19:30:49.065] -----------------------------------------------
+Info 28   [19:30:49.065] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 29   [19:30:49.065] 	Files (164)
 
-Info 52   [02:24:51.582] -----------------------------------------------
-Info 53   [02:24:51.587] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 54   [02:24:51.632] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 44.69609499722719ms
-Info 55   [02:24:51.632] Different program with same set of files
-Info 56   [02:24:51.634] getCompletionData: Get current token: 0.02073899656534195
-Info 57   [02:24:51.634] getCompletionData: Is inside comment: 0.10966499894857407
-Info 58   [02:24:51.634] getCompletionData: Get previous token: 0.06808999925851822
-Info 59   [02:24:51.634] getCompletionsAtPosition: isCompletionListBlocker: 0.36442599445581436
-Info 60   [02:24:51.647] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 61   [02:24:51.652] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 5.129288993775845ms
-Info 62   [02:24:51.652] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 63   [02:24:51.652] 	Files (61)
+Info 30   [19:30:49.065] -----------------------------------------------
+Info 31   [19:30:49.071] Before ensureProjectForOpenFiles:
+Info 32   [19:30:49.071] After ensureProjectForOpenFiles:
+Info 33   [19:30:49.071] got projects updated in background, updating diagnostics for /home/rodrigo/Workspace/wikidex-learning-react/src/App.js
+Info 34   [19:32:02.971] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/services
+Info 35   [19:32:02.971] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/services/PokemonFetcher.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 36   [19:48:11.866] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable
+Info 37   [19:48:11.866] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/PokemonTable.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 38   [19:50:01.157] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 39   [19:50:01.289] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 131.84385799989104ms
+Info 40   [19:50:01.290] Different program with same set of files
+Info 41   [19:50:02.343] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 42   [19:50:02.440] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 96.95865799859166ms
+Info 43   [19:50:02.441] Different program with same set of files
+Info 44   [19:50:02.444] getCompletionData: Get current token: 0.05038199946284294
+Info 45   [19:50:02.444] getCompletionData: Is inside comment: 0.1850529983639717
+Info 46   [19:50:02.444] getCompletionData: Get previous token: 0.13014699891209602
+Info 47   [19:50:02.451] getCompletionsAtPosition: isCompletionListBlocker: 6.545171998441219
+Info 48   [19:50:02.479] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 49   [19:50:02.487] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 8.073359999805689ms
+Info 50   [19:50:02.487] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 51   [19:50:02.487] 	Files (61)
 
-Info 64   [02:24:51.652] -----------------------------------------------
-Info 65   [02:24:51.652] getExportInfoMap: cache miss or empty; calculating new results
-Info 66   [02:24:51.998] forEachExternalModuleToImportFrom autoImportProvider: 104.43307599425316
-Info 67   [02:24:51.998] getExportInfoMap: done in 358.50556499511003 ms
-Info 68   [02:24:52.062] collectAutoImports: resolved 22 module specifiers, plus 0 ambient and -504 from cache
-Info 69   [02:24:52.062] collectAutoImports: response is complete
-Info 70   [02:24:52.062] collectAutoImports: 63.97794299572706
-Info 71   [02:24:52.062] getCompletionData: Semantic work: 427.95057400316
-Info 72   [02:24:52.086] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.853643998503685
-Info 73   [02:24:52.104] Before ensureProjectForOpenFiles:
-Info 74   [02:24:52.104] After ensureProjectForOpenFiles:
-Info 75   [02:24:52.105] got projects updated in background, updating diagnostics for /home/rodrigo/Workspace/wikidex-learning-react/src/App.js
-Info 76   [02:24:52.106] getCompletionData: Get current token: 0.010903000831604004
-Info 77   [02:24:52.106] getCompletionData: Is inside comment: 0.024076998233795166
-Info 78   [02:24:52.106] getCompletionData: Get previous token: 0.03135199844837189
-Info 79   [02:24:52.106] getCompletionsAtPosition: isCompletionListBlocker: 0.02871599793434143
-Info 80   [02:24:52.111] getExportInfoMap: cache hit
-Info 81   [02:24:52.137] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 70 from cache
-Info 82   [02:24:52.137] collectAutoImports: response is complete
-Info 83   [02:24:52.137] collectAutoImports: 26.56022099405527
-Info 84   [02:24:52.137] getCompletionData: Semantic work: 31.384828001260757
-Info 85   [02:24:52.156] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.094235002994537
-Info 86   [02:24:52.161] getCompletionData: Get current token: 0.009059995412826538
-Info 87   [02:24:52.161] getCompletionData: Is inside comment: 0.016081005334854126
-Info 88   [02:24:52.161] getCompletionData: Get previous token: 0.02183300256729126
-Info 89   [02:24:52.161] getCompletionsAtPosition: isCompletionListBlocker: 0.02477099746465683
-Info 90   [02:24:52.165] getExportInfoMap: cache hit
-Info 91   [02:24:52.189] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 70 from cache
-Info 92   [02:24:52.189] collectAutoImports: response is complete
-Info 93   [02:24:52.189] collectAutoImports: 23.94258100539446
-Info 94   [02:24:52.189] getCompletionData: Semantic work: 27.37584199756384
-Info 95   [02:24:52.205] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.40176099538803
-Info 96   [02:24:52.209] getCompletionData: Get current token: 0.009419001638889313
-Info 97   [02:24:52.210] getCompletionData: Is inside comment: 0.016759999096393585
-Info 98   [02:24:52.210] getCompletionData: Get previous token: 0.022385001182556152
-Info 99   [02:24:52.210] getCompletionsAtPosition: isCompletionListBlocker: 0.029739998281002045
-Info 100  [02:24:52.215] getExportInfoMap: cache hit
-Info 101  [02:24:52.234] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 70 from cache
-Info 102  [02:24:52.234] collectAutoImports: response is complete
-Info 103  [02:24:52.234] collectAutoImports: 19.184326000511646
-Info 104  [02:24:52.234] getCompletionData: Semantic work: 24.247217997908592
-Info 105  [02:24:52.247] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.235458999872208
-Info 106  [02:24:52.257] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 107  [02:24:52.320] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 62.498100996017456ms
-Info 108  [02:24:52.320] Different program with same set of files
-Info 109  [02:24:52.320] getCompletionData: Get current token: 0.015230998396873474
-Info 110  [02:24:52.320] getCompletionData: Is inside comment: 0.022404000163078308
-Info 111  [02:24:52.320] getCompletionData: Get previous token: 0.026417002081871033
-Info 112  [02:24:52.320] getCompletionsAtPosition: isCompletionListBlocker: 0.03209400177001953
-Info 113  [02:24:52.326] getExportInfoMap: cache hit
-Info 114  [02:24:52.362] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 5 from cache
-Info 115  [02:24:52.362] collectAutoImports: response is complete
-Info 116  [02:24:52.362] collectAutoImports: 36.38270299881697
-Info 117  [02:24:52.362] getCompletionData: Semantic work: 41.7017819955945
-Info 118  [02:24:52.373] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.763236999511719
-Info 119  [02:24:54.436] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 120  [02:24:54.509] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 72.97336900234222ms
-Info 121  [02:24:54.509] Different program with same set of files
-Info 122  [02:24:54.510] getCompletionData: Get current token: 0.017400003969669342
-Info 123  [02:24:54.510] getCompletionData: Is inside comment: 0.02316899597644806
-Info 124  [02:24:54.510] getCompletionData: Get previous token: 0.029722005128860474
-Info 125  [02:24:54.510] getCompletionsAtPosition: isCompletionListBlocker: 0.02154800295829773
-Info 126  [02:24:54.513] getExportInfoMap: cache hit
-Info 127  [02:24:54.541] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 70 from cache
-Info 128  [02:24:54.541] collectAutoImports: response is complete
-Info 129  [02:24:54.541] collectAutoImports: 27.89078699797392
-Info 130  [02:24:54.541] getCompletionData: Semantic work: 30.948941998183727
-Info 131  [02:24:54.554] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.476922996342182
-Info 132  [02:24:54.580] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 133  [02:24:54.620] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 40.59001000225544ms
-Info 134  [02:24:54.621] Different program with same set of files
-Info 135  [02:24:54.621] getCompletionData: Get current token: 0.019728995859622955
-Info 136  [02:24:54.621] getCompletionData: Is inside comment: 0.01849399507045746
-Info 137  [02:24:54.621] getCompletionData: Get previous token: 0.028800003230571747
-Info 138  [02:24:54.621] getCompletionsAtPosition: isCompletionListBlocker: 0.034578002989292145
-Info 139  [02:24:54.625] getExportInfoMap: cache hit
-Info 140  [02:24:54.667] collectAutoImports: resolved 2 module specifiers, plus 0 ambient and 13 from cache
-Info 141  [02:24:54.667] collectAutoImports: response is complete
-Info 142  [02:24:54.667] collectAutoImports: 42.109240002930164
-Info 143  [02:24:54.667] getCompletionData: Semantic work: 45.770937994122505
-Info 144  [02:24:54.674] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.189750000834465
-Info 145  [02:24:55.372] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 146  [02:24:55.444] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 70.92170299589634ms
-Info 147  [02:24:55.444] Different program with same set of files
-Info 148  [02:24:55.815] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 149  [02:24:55.854] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 38.208848997950554ms
-Info 150  [02:24:55.854] Different program with same set of files
-Info 151  [02:25:01.218] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 152  [02:25:01.289] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 70.81902299821377ms
-Info 153  [02:25:01.289] Different program with same set of files
-Info 154  [02:25:01.641] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 155  [02:25:01.707] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 66.37470400333405ms
-Info 156  [02:25:01.707] Different program with same set of files
-Info 157  [02:26:21.438] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/Navbar
-Info 158  [02:26:21.439] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/Navbar/NavBar.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 159  [02:26:29.429] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 160  [02:26:29.531] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 101.97516100108624ms
-Info 161  [02:26:29.531] Different program with same set of files
-Info 162  [02:26:30.000] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 163  [02:26:30.083] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 82.7789110019803ms
-Info 164  [02:26:30.083] Different program with same set of files
-Info 165  [02:26:31.887] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 166  [02:26:31.934] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 47.00873400270939ms
-Info 167  [02:26:31.934] Different program with same set of files
-Info 168  [02:26:46.346] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList
-Info 169  [02:26:46.346] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokeballInput.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 170  [02:26:55.869] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 171  [02:26:56.057] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 16 structureChanged: true structureIsReused:: SafeModules Elapsed: 187.4673819988966ms
-Info 172  [02:26:56.057] Project '/home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json' (Configured)
-Info 173  [02:26:56.057] 	Files (2023)
-
-Info 174  [02:26:56.057] -----------------------------------------------
-Info 175  [02:26:56.057] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 176  [02:26:56.057] 	Files (61)
-
-Info 177  [02:26:56.057] -----------------------------------------------
-Info 178  [02:26:57.921] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 179  [02:26:57.985] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 63.747336000204086ms
-Info 180  [02:26:57.985] Different program with same set of files
-Info 181  [02:27:18.239] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList
-Info 182  [02:27:18.239] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonList/PokemonGenerationMenu.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 183  [02:27:27.768] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 184  [02:27:27.845] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 76.51412399858236ms
-Info 185  [02:27:27.845] Different program with same set of files
-Info 186  [02:27:27.848] getCompletionData: Get current token: 0.03961099684238434
-Info 187  [02:27:27.848] getCompletionData: Is inside comment: 0.006460994482040405
-Info 188  [02:27:27.848] getCompletionData: Get previous token: 0.11762099713087082
-Info 189  [02:27:27.849] getCompletionsAtPosition: isCompletionListBlocker: 0.2985979989171028
-Info 190  [02:27:27.961] getCompletionData: Semantic work: 112.19947899878025
-Info 191  [02:27:27.962] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.5446169972419739
-Info 192  [02:27:28.820] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 193  [02:27:28.895] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 74.70425099879503ms
-Info 194  [02:27:28.895] Different program with same set of files
-Info 195  [02:27:29.751] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 196  [02:27:29.804] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 53.772537998855114ms
-Info 197  [02:27:29.804] Different program with same set of files
-Info 198  [02:27:30.748] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 199  [02:27:30.812] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 63.80027099698782ms
-Info 200  [02:27:30.812] Different program with same set of files
-Info 201  [02:27:31.073] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 202  [02:27:31.138] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 64.75941599905491ms
-Info 203  [02:27:31.138] Different program with same set of files
-Info 204  [02:27:34.183] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 205  [02:27:34.248] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 64.79074100404978ms
-Info 206  [02:27:34.248] Different program with same set of files
-Info 207  [02:27:35.898] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 208  [02:27:35.961] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 63.49966699630022ms
-Info 209  [02:27:35.962] Different program with same set of files
-Info 210  [02:27:36.306] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 211  [02:27:36.369] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 62.25503200292587ms
-Info 212  [02:27:36.369] Different program with same set of files
-Info 213  [02:27:36.748] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 214  [02:27:36.810] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 60.97463100403547ms
-Info 215  [02:27:36.810] Different program with same set of files
-Info 216  [02:27:36.811] getCompletionData: Get current token: 0.03657999634742737
-Info 217  [02:27:36.811] getCompletionData: Is inside comment: 0.005232997238636017
-Info 218  [02:27:36.811] getCompletionData: Get previous token: 0.09726500511169434
-Info 219  [02:27:36.811] getCompletionsAtPosition: isCompletionListBlocker: 0.0037229955196380615
-Info 220  [02:27:36.892] getCompletionData: Semantic work: 80.9092739969492
-Info 221  [02:27:36.893] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.1382250040769577
-Info 222  [02:27:37.034] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 223  [02:27:37.078] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 43.37865699827671ms
-Info 224  [02:27:37.078] Different program with same set of files
-Info 225  [02:27:37.079] getCompletionData: Get current token: 0.03222399950027466
-Info 226  [02:27:37.079] getCompletionData: Is inside comment: 0.004305005073547363
-Info 227  [02:27:37.079] getCompletionData: Get previous token: 0.10379000008106232
-Info 228  [02:27:37.079] getCompletionsAtPosition: isCompletionListBlocker: 0.004278004169464111
-Info 229  [02:27:37.161] getCompletionData: Semantic work: 82.20657899975777
-Info 230  [02:27:37.161] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.1514810025691986
-Info 231  [02:27:37.163] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 232  [02:27:37.201] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 37.49302000552416ms
-Info 233  [02:27:37.201] Different program with same set of files
-Info 234  [02:27:37.201] getCompletionData: Get current token: 0.03248700499534607
-Info 235  [02:27:37.201] getCompletionData: Is inside comment: 0.004620000720024109
-Info 236  [02:27:37.201] getCompletionData: Get previous token: 0.10416800528764725
-Info 237  [02:27:37.202] getCompletionsAtPosition: isCompletionListBlocker: 0.004038996994495392
-Info 238  [02:27:37.277] getCompletionData: Semantic work: 75.89176999777555
-Info 239  [02:27:37.278] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.12983400374650955
-Info 240  [02:27:38.362] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 241  [02:27:38.402] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 39.65275999903679ms
-Info 242  [02:27:38.402] Different program with same set of files
-Info 243  [02:27:38.669] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 244  [02:27:38.755] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 86.15638499706984ms
-Info 245  [02:27:38.755] Different program with same set of files
-Info 246  [02:27:38.756] getCompletionData: Get current token: 0.09917199611663818
-Info 247  [02:27:38.756] getCompletionData: Is inside comment: 0.020243003964424133
-Info 248  [02:27:38.756] getCompletionData: Get previous token: 0.13760000467300415
-Info 249  [02:27:38.756] getCompletionsAtPosition: isCompletionListBlocker: 0.004162997007369995
-Info 250  [02:27:38.840] getCompletionData: Semantic work: 83.83073899894953
-Info 251  [02:27:38.874] getCompletionData: Get current token: 0.08110000193119049
-Info 252  [02:27:38.874] getCompletionData: Is inside comment: 0.009199000895023346
-Info 253  [02:27:38.874] getCompletionData: Get previous token: 0.11667300015687943
-Info 254  [02:27:38.874] getCompletionsAtPosition: isCompletionListBlocker: 0.004381000995635986
-Info 255  [02:27:38.874] getCompletionData: Semantic work: 0.6359019950032234
-Info 256  [02:29:03.840] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 257  [02:29:03.928] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 87.18073099851608ms
-Info 258  [02:29:03.928] Different program with same set of files
-Info 259  [02:29:05.342] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 260  [02:29:05.451] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 108.597621999681ms
-Info 261  [02:29:05.451] Different program with same set of files
-Info 262  [02:29:06.804] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
-Info 263  [02:29:06.864] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 60.239679999649525ms
-Info 264  [02:29:06.865] Different program with same set of files
+Info 52   [19:50:02.487] -----------------------------------------------
+Info 53   [19:50:02.488] getExportInfoMap: cache miss or empty; calculating new results
+Info 54   [19:50:02.867] forEachExternalModuleToImportFrom autoImportProvider: 130.09334199875593
+Info 55   [19:50:02.867] getExportInfoMap: done in 404.0630609989166 ms
+Info 56   [19:50:02.897] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 57   [19:50:02.897] collectAutoImports: response is complete
+Info 58   [19:50:02.897] collectAutoImports: 29.198385998606682
+Info 59   [19:50:02.897] getCompletionData: Semantic work: 445.7611929997802
+Info 60   [19:50:02.918] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.240504000335932
+Info 61   [19:50:02.936] getCompletionData: Get current token: 0.03541500121355057
+Info 62   [19:50:02.936] getCompletionData: Is inside comment: 0.06333599984645844
+Info 63   [19:50:02.937] getCompletionData: Get previous token: 0.10224100202322006
+Info 64   [19:50:02.937] getCompletionsAtPosition: isCompletionListBlocker: 0.00400099903345108
+Info 65   [19:50:02.941] getExportInfoMap: cache hit
+Info 66   [19:50:02.965] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 67   [19:50:02.965] collectAutoImports: response is complete
+Info 68   [19:50:02.965] collectAutoImports: 23.41295400261879
+Info 69   [19:50:02.965] getCompletionData: Semantic work: 27.93808199837804
+Info 70   [19:50:02.981] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.481290999799967
+Info 71   [19:50:02.989] getCompletionData: Get current token: 0.03806900233030319
+Info 72   [19:50:02.989] getCompletionData: Is inside comment: 0.06953299790620804
+Info 73   [19:50:02.989] getCompletionData: Get previous token: 0.22322499752044678
+Info 74   [19:50:02.989] getCompletionsAtPosition: isCompletionListBlocker: 0.004437997937202454
+Info 75   [19:50:03.016] getExportInfoMap: cache hit
+Info 76   [19:50:03.052] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 77   [19:50:03.052] collectAutoImports: response is complete
+Info 78   [19:50:03.052] collectAutoImports: 36.19769300147891
+Info 79   [19:50:03.052] getCompletionData: Semantic work: 63.24083699658513
+Info 80   [19:50:03.087] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 34.49722300097346
+Info 81   [19:50:03.095] getCompletionData: Get current token: 0.03611700236797333
+Info 82   [19:50:03.095] getCompletionData: Is inside comment: 0.06368999928236008
+Info 83   [19:50:03.095] getCompletionData: Get previous token: 0.2332030013203621
+Info 84   [19:50:03.095] getCompletionsAtPosition: isCompletionListBlocker: 0.0036209970712661743
+Info 85   [19:50:03.116] getExportInfoMap: cache hit
+Info 86   [19:50:03.133] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 87   [19:50:03.133] collectAutoImports: response is complete
+Info 88   [19:50:03.133] collectAutoImports: 16.92882200330496
+Info 89   [19:50:03.133] getCompletionData: Semantic work: 37.853477001190186
+Info 90   [19:50:03.152] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.01451899856329
+Info 91   [19:50:03.267] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 92   [19:50:03.332] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 64.58137499913573ms
+Info 93   [19:50:03.332] Different program with same set of files
+Info 94   [19:50:03.333] getCompletionData: Get current token: 0.03468500077724457
+Info 95   [19:50:03.333] getCompletionData: Is inside comment: 0.06397100165486336
+Info 96   [19:50:03.333] getCompletionData: Get previous token: 0.10574600100517273
+Info 97   [19:50:03.333] getCompletionsAtPosition: isCompletionListBlocker: 0.005059998482465744
+Info 98   [19:50:03.343] getExportInfoMap: cache hit
+Info 99   [19:50:03.382] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 100  [19:50:03.382] collectAutoImports: response is complete
+Info 101  [19:50:03.382] collectAutoImports: 38.49988600239158
+Info 102  [19:50:03.382] getCompletionData: Semantic work: 48.82017200067639
+Info 103  [19:50:03.399] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.85930000245571
+Info 104  [19:50:03.408] getCompletionData: Get current token: 0.03622400015592575
+Info 105  [19:50:03.408] getCompletionData: Is inside comment: 0.0674929991364479
+Info 106  [19:50:03.409] getCompletionData: Get previous token: 0.18394500017166138
+Info 107  [19:50:03.409] getCompletionsAtPosition: isCompletionListBlocker: 0.003713000565767288
+Info 108  [19:50:03.412] getExportInfoMap: cache hit
+Info 109  [19:50:03.428] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 110  [19:50:03.428] collectAutoImports: response is complete
+Info 111  [19:50:03.428] collectAutoImports: 15.469650998711586
+Info 112  [19:50:03.428] getCompletionData: Semantic work: 19.064686000347137
+Info 113  [19:50:03.438] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.106977999210358
+Info 114  [19:50:03.442] getCompletionData: Get current token: 0.0359560027718544
+Info 115  [19:50:03.442] getCompletionData: Is inside comment: 0.05879800021648407
+Info 116  [19:50:03.442] getCompletionData: Get previous token: 0.09979499876499176
+Info 117  [19:50:03.443] getCompletionsAtPosition: isCompletionListBlocker: 0.003625001758337021
+Info 118  [19:50:03.446] getExportInfoMap: cache hit
+Info 119  [19:50:03.458] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 120  [19:50:03.458] collectAutoImports: response is complete
+Info 121  [19:50:03.458] collectAutoImports: 12.562287997454405
+Info 122  [19:50:03.458] getCompletionData: Semantic work: 15.776795998215675
+Info 123  [19:50:03.465] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.8297490030527115
+Info 124  [19:50:03.469] getCompletionData: Get current token: 0.03748199716210365
+Info 125  [19:50:03.469] getCompletionData: Is inside comment: 0.06525900214910507
+Info 126  [19:50:03.469] getCompletionData: Get previous token: 0.09922999888658524
+Info 127  [19:50:03.469] getCompletionsAtPosition: isCompletionListBlocker: 0.00451500341296196
+Info 128  [19:50:03.474] getExportInfoMap: cache hit
+Info 129  [19:50:03.486] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 130  [19:50:03.486] collectAutoImports: response is complete
+Info 131  [19:50:03.486] collectAutoImports: 11.587166000157595
+Info 132  [19:50:03.486] getCompletionData: Semantic work: 16.511750999838114
+Info 133  [19:50:03.493] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.344138000160456
+Info 134  [19:50:03.497] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 135  [19:50:03.566] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 69.48202599957585ms
+Info 136  [19:50:03.566] Different program with same set of files
+Info 137  [19:50:03.567] getCompletionData: Get current token: 0.036924999207258224
+Info 138  [19:50:03.567] getCompletionData: Is inside comment: 0.05824499949812889
+Info 139  [19:50:03.567] getCompletionData: Get previous token: 0.14355400204658508
+Info 140  [19:50:03.568] getCompletionsAtPosition: isCompletionListBlocker: 0.007190000265836716
+Info 141  [19:50:03.569] getCompletionData: Semantic work: 1.4751759991049767
+Info 142  [19:50:03.572] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.4470329992473125
+Info 143  [19:50:03.582] getCompletionData: Get current token: 0.030980002135038376
+Info 144  [19:50:03.582] getCompletionData: Is inside comment: 0.05787699669599533
+Info 145  [19:50:03.582] getCompletionData: Get previous token: 0.08647900074720383
+Info 146  [19:50:03.582] getCompletionsAtPosition: isCompletionListBlocker: 0.006614997982978821
+Info 147  [19:50:03.582] getCompletionData: Semantic work: 0.25386299937963486
+Info 148  [19:50:03.582] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.23685099929571152
+Info 149  [19:50:03.583] getCompletionData: Get current token: 0.030351001769304276
+Info 150  [19:50:03.583] getCompletionData: Is inside comment: 0.05228400230407715
+Info 151  [19:50:03.583] getCompletionData: Get previous token: 0.08743000030517578
+Info 152  [19:50:03.583] getCompletionsAtPosition: isCompletionListBlocker: 0.004180997610092163
+Info 153  [19:50:03.584] getCompletionData: Semantic work: 0.19569600000977516
+Info 154  [19:50:03.584] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.17398099973797798
+Info 155  [19:50:03.584] getCompletionData: Get current token: 0.029008999466896057
+Info 156  [19:50:03.584] getCompletionData: Is inside comment: 0.051194000989198685
+Info 157  [19:50:03.585] getCompletionData: Get previous token: 0.08810799941420555
+Info 158  [19:50:03.585] getCompletionsAtPosition: isCompletionListBlocker: 0.0038329996168613434
+Info 159  [19:50:03.585] getCompletionData: Semantic work: 0.2783689983189106
+Info 160  [19:50:03.585] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.19799400120973587
+Info 161  [19:50:03.586] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 162  [19:50:03.645] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 59.06609299778938ms
+Info 163  [19:50:03.645] Different program with same set of files
+Info 164  [19:50:03.646] getCompletionData: Get current token: 0.026930000633001328
+Info 165  [19:50:03.646] getCompletionData: Is inside comment: 0.049963999539613724
+Info 166  [19:50:03.646] getCompletionData: Get previous token: 0.08310599997639656
+Info 167  [19:50:03.646] getCompletionsAtPosition: isCompletionListBlocker: 0.0043219998478889465
+Info 168  [19:50:03.646] getCompletionData: Semantic work: 0.40796300023794174
+Info 169  [19:50:03.648] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.0574799999594688
+Info 170  [19:50:03.648] getCompletionData: Get current token: 0.026329997926950455
+Info 171  [19:50:03.648] getCompletionData: Is inside comment: 0.048249002546072006
+Info 172  [19:50:03.648] getCompletionData: Get previous token: 0.0812619999051094
+Info 173  [19:50:03.649] getCompletionsAtPosition: isCompletionListBlocker: 0.0040770024061203
+Info 174  [19:50:03.649] getCompletionData: Semantic work: 0.1992489993572235
+Info 175  [19:50:03.649] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.21001499891281128
+Info 176  [19:50:03.650] getCompletionData: Get current token: 0.02626199647784233
+Info 177  [19:50:03.650] getCompletionData: Is inside comment: 0.048335000872612
+Info 178  [19:50:03.650] getCompletionData: Get previous token: 0.08654100075364113
+Info 179  [19:50:03.650] getCompletionsAtPosition: isCompletionListBlocker: 0.004037998616695404
+Info 180  [19:50:03.650] getCompletionData: Semantic work: 0.17312699928879738
+Info 181  [19:50:03.650] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.19027499854564667
+Info 182  [19:50:03.651] getCompletionData: Get current token: 0.026683997362852097
+Info 183  [19:50:03.651] getCompletionData: Is inside comment: 0.0833749994635582
+Info 184  [19:50:03.651] getCompletionData: Get previous token: 0.08091799914836884
+Info 185  [19:50:03.651] getCompletionsAtPosition: isCompletionListBlocker: 0.005265999585390091
+Info 186  [19:50:03.651] getCompletionData: Semantic work: 0.19327499717473984
+Info 187  [19:50:03.652] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.19823099672794342
+Info 188  [19:50:03.652] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 189  [19:50:03.700] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 47.896283000707626ms
+Info 190  [19:50:03.700] Different program with same set of files
+Info 191  [19:50:03.700] getCompletionData: Get current token: 0.028014998883008957
+Info 192  [19:50:03.701] getCompletionData: Is inside comment: 0.049525998532772064
+Info 193  [19:50:03.701] getCompletionData: Get previous token: 0.08483299985527992
+Info 194  [19:50:03.701] getCompletionsAtPosition: isCompletionListBlocker: 0.004540000110864639
+Info 195  [19:50:03.701] getCompletionData: Semantic work: 0.5205750018358231
+Info 196  [19:50:03.702] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.737185001373291
+Info 197  [19:50:08.019] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 198  [19:50:08.094] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 74.34893799945712ms
+Info 199  [19:50:08.094] Different program with same set of files
+Info 200  [19:50:08.094] getCompletionData: Get current token: 0.0816040001809597
+Info 201  [19:50:08.095] getCompletionData: Is inside comment: 0.0848659984767437
+Info 202  [19:50:08.095] getCompletionData: Get previous token: 0.08654899895191193
+Info 203  [19:50:08.095] getCompletionsAtPosition: isCompletionListBlocker: 0.004391998052597046
+Info 204  [19:50:08.095] getCompletionData: Semantic work: 0.6136449985206127
+Info 205  [19:50:08.131] getCompletionData: Get current token: 0.03629700094461441
+Info 206  [19:50:08.131] getCompletionData: Is inside comment: 0.06946200132369995
+Info 207  [19:50:08.131] getCompletionData: Get previous token: 0.09064099937677383
+Info 208  [19:50:08.131] getCompletionsAtPosition: isCompletionListBlocker: 0.0044989995658397675
+Info 209  [19:50:08.132] getCompletionData: Semantic work: 0.29279700294137
+Info 210  [19:50:08.863] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 211  [19:50:08.936] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 70.07858700305223ms
+Info 212  [19:50:08.936] Different program with same set of files
+Info 213  [19:50:09.335] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 214  [19:50:09.381] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 46.47450599819422ms
+Info 215  [19:50:09.381] Different program with same set of files
+Info 216  [19:50:09.496] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 217  [19:50:09.574] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 77.85911799967289ms
+Info 218  [19:50:09.574] Different program with same set of files
+Info 219  [19:50:09.691] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 220  [19:50:09.804] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 112.44117299839854ms
+Info 221  [19:50:09.804] Different program with same set of files
+Info 222  [19:50:09.809] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 223  [19:50:09.866] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 56.16857600212097ms
+Info 224  [19:50:09.866] Different program with same set of files
+Info 225  [19:50:10.011] getCompletionData: Get current token: 0.07706499844789505
+Info 226  [19:50:10.011] getCompletionData: Is inside comment: 0.013454999774694443
+Info 227  [19:50:10.012] getCompletionData: Get previous token: 0.32234999909996986
+Info 228  [19:50:10.012] getCompletionsAtPosition: isCompletionListBlocker: 0.18682200089097023
+Info 229  [19:50:10.022] getExportInfoMap: cache hit
+Info 230  [19:50:10.122] collectAutoImports: resolved 6 module specifiers, plus 0 ambient and -15 from cache
+Info 231  [19:50:10.123] collectAutoImports: response is complete
+Info 232  [19:50:10.123] collectAutoImports: 100.54139499738812
+Info 233  [19:50:10.123] getCompletionData: Semantic work: 110.46170600131154
+Info 234  [19:50:10.146] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.094206999987364
+Info 235  [19:50:10.182] getCompletionData: Get current token: 0.02634800225496292
+Info 236  [19:50:10.183] getCompletionData: Is inside comment: 0.005056999623775482
+Info 237  [19:50:10.183] getCompletionData: Get previous token: 0.10804799944162369
+Info 238  [19:50:10.183] getCompletionsAtPosition: isCompletionListBlocker: 0.0053800009191036224
+Info 239  [19:50:10.186] getExportInfoMap: cache hit
+Info 240  [19:50:10.203] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 6 from cache
+Info 241  [19:50:10.203] collectAutoImports: response is complete
+Info 242  [19:50:10.203] collectAutoImports: 17.070029001682997
+Info 243  [19:50:10.203] getCompletionData: Semantic work: 20.553082998842
+Info 244  [19:50:10.217] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.027895998209715
+Info 245  [19:50:10.222] getCompletionData: Get current token: 0.02645000070333481
+Info 246  [19:50:10.222] getCompletionData: Is inside comment: 0.0050150007009506226
+Info 247  [19:50:10.222] getCompletionData: Get previous token: 0.12078999727964401
+Info 248  [19:50:10.222] getCompletionsAtPosition: isCompletionListBlocker: 0.005673997104167938
+Info 249  [19:50:10.226] getExportInfoMap: cache hit
+Info 250  [19:50:10.239] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 6 from cache
+Info 251  [19:50:10.239] collectAutoImports: response is complete
+Info 252  [19:50:10.239] collectAutoImports: 12.8478330001235
+Info 253  [19:50:10.239] getCompletionData: Semantic work: 17.14528900012374
+Info 254  [19:50:10.247] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.3844139985740185
+Info 255  [19:50:10.251] getCompletionData: Get current token: 0.03838900104165077
+Info 256  [19:50:10.252] getCompletionData: Is inside comment: 0.013764999806880951
+Info 257  [19:50:10.252] getCompletionData: Get previous token: 0.14972499758005142
+Info 258  [19:50:10.252] getCompletionsAtPosition: isCompletionListBlocker: 0.019133001565933228
+Info 259  [19:50:10.255] getExportInfoMap: cache hit
+Info 260  [19:50:10.268] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 6 from cache
+Info 261  [19:50:10.268] collectAutoImports: response is complete
+Info 262  [19:50:10.268] collectAutoImports: 12.886913001537323
+Info 263  [19:50:10.268] getCompletionData: Semantic work: 16.393728997558355
+Info 264  [19:50:10.275] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.4425300024449825
+Info 265  [19:50:10.278] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 266  [19:50:10.317] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 38.992731999605894ms
+Info 267  [19:50:10.317] Different program with same set of files
+Info 268  [19:50:10.483] getCompletionData: Get current token: 0.025369998067617416
+Info 269  [19:50:10.483] getCompletionData: Is inside comment: 0.005625002086162567
+Info 270  [19:50:10.483] getCompletionData: Get previous token: 0.11385899782180786
+Info 271  [19:50:10.483] getCompletionsAtPosition: isCompletionListBlocker: 0.006625000387430191
+Info 272  [19:50:10.487] getExportInfoMap: cache hit
+Info 273  [19:50:10.508] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 274  [19:50:10.508] collectAutoImports: response is complete
+Info 275  [19:50:10.508] collectAutoImports: 21.05119299888611
+Info 276  [19:50:10.508] getCompletionData: Semantic work: 24.307468000799417
+Info 277  [19:50:10.517] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.6288230009377
+Info 278  [19:50:10.525] getCompletionData: Get current token: 0.025410998612642288
+Info 279  [19:50:10.525] getCompletionData: Is inside comment: 0.0051539987325668335
+Info 280  [19:50:10.525] getCompletionData: Get previous token: 0.11066700145602226
+Info 281  [19:50:10.525] getCompletionsAtPosition: isCompletionListBlocker: 0.02062799781560898
+Info 282  [19:50:10.528] getExportInfoMap: cache hit
+Info 283  [19:50:10.541] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 284  [19:50:10.541] collectAutoImports: response is complete
+Info 285  [19:50:10.541] collectAutoImports: 12.71441200003028
+Info 286  [19:50:10.541] getCompletionData: Semantic work: 15.517772998660803
+Info 287  [19:50:10.547] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.500623002648354
+Info 288  [19:50:10.552] getCompletionData: Get current token: 0.025767002254724503
+Info 289  [19:50:10.552] getCompletionData: Is inside comment: 0.005070000886917114
+Info 290  [19:50:10.552] getCompletionData: Get previous token: 0.09560199826955795
+Info 291  [19:50:10.552] getCompletionsAtPosition: isCompletionListBlocker: 0.005669999867677689
+Info 292  [19:50:10.555] getExportInfoMap: cache hit
+Info 293  [19:50:10.569] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 294  [19:50:10.569] collectAutoImports: response is complete
+Info 295  [19:50:10.569] collectAutoImports: 14.299316998571157
+Info 296  [19:50:10.569] getCompletionData: Semantic work: 17.030280999839306
+Info 297  [19:50:10.576] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.393529001623392
+Info 298  [19:50:10.579] getCompletionData: Get current token: 0.02816300094127655
+Info 299  [19:50:10.579] getCompletionData: Is inside comment: 0.005023002624511719
+Info 300  [19:50:10.579] getCompletionData: Get previous token: 0.06763899698853493
+Info 301  [19:50:10.579] getCompletionsAtPosition: isCompletionListBlocker: 0.008951999247074127
+Info 302  [19:50:10.583] getExportInfoMap: cache hit
+Info 303  [19:50:10.594] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 304  [19:50:10.594] collectAutoImports: response is complete
+Info 305  [19:50:10.595] collectAutoImports: 11.459228001534939
+Info 306  [19:50:10.595] getCompletionData: Semantic work: 15.349257998168468
+Info 307  [19:50:10.602] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.036201000213623
+Info 308  [19:52:41.132] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 309  [19:52:41.230] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 97.60578499734402ms
+Info 310  [19:52:41.230] Different program with same set of files
+Info 311  [19:52:41.513] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 312  [19:52:41.574] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 61.16001299768686ms
+Info 313  [19:52:41.574] Different program with same set of files
+Info 314  [19:52:42.106] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 315  [19:52:42.157] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 50.861359000205994ms
+Info 316  [19:52:42.157] Different program with same set of files
+Info 317  [19:52:42.158] getCompletionData: Get current token: 0.01296299695968628
+Info 318  [19:52:42.158] getCompletionData: Is inside comment: 0.030411001294851303
+Info 319  [19:52:42.158] getCompletionData: Get previous token: 0.061487000435590744
+Info 320  [19:52:42.158] getCompletionsAtPosition: isCompletionListBlocker: 0.016004998236894608
+Info 321  [19:52:42.164] getExportInfoMap: cache miss or empty; calculating new results
+Info 322  [19:52:42.425] forEachExternalModuleToImportFrom autoImportProvider: 29.415365997701883
+Info 323  [19:52:42.425] getExportInfoMap: done in 260.75184699893 ms
+Info 324  [19:52:42.459] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 325  [19:52:42.459] collectAutoImports: response is complete
+Info 326  [19:52:42.459] collectAutoImports: 33.71866000071168
+Info 327  [19:52:42.459] getCompletionData: Semantic work: 300.73023099824786
+Info 328  [19:52:42.468] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.331225000321865
+Info 329  [19:52:42.474] getCompletionData: Get current token: 0.012643001973628998
+Info 330  [19:52:42.474] getCompletionData: Is inside comment: 0.03161200135946274
+Info 331  [19:52:42.474] getCompletionData: Get previous token: 0.05224200338125229
+Info 332  [19:52:42.474] getCompletionsAtPosition: isCompletionListBlocker: 0.02751300111413002
+Info 333  [19:52:42.477] getExportInfoMap: cache hit
+Info 334  [19:52:42.490] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 335  [19:52:42.490] collectAutoImports: response is complete
+Info 336  [19:52:42.490] collectAutoImports: 12.290911000221968
+Info 337  [19:52:42.490] getCompletionData: Semantic work: 15.68623100221157
+Info 338  [19:52:42.498] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.99413999915123
+Info 339  [19:52:42.502] getCompletionData: Get current token: 0.012837998569011688
+Info 340  [19:52:42.502] getCompletionData: Is inside comment: 0.0321350023150444
+Info 341  [19:52:42.502] getCompletionData: Get previous token: 0.04931100085377693
+Info 342  [19:52:42.502] getCompletionsAtPosition: isCompletionListBlocker: 0.02133600041270256
+Info 343  [19:52:42.507] getExportInfoMap: cache hit
+Info 344  [19:52:42.519] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 345  [19:52:42.520] collectAutoImports: response is complete
+Info 346  [19:52:42.520] collectAutoImports: 12.031095001846552
+Info 347  [19:52:42.520] getCompletionData: Semantic work: 17.361434001475573
+Info 348  [19:52:42.530] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.040970999747515
+Info 349  [19:52:42.533] getCompletionData: Get current token: 0.011035002768039703
+Info 350  [19:52:42.533] getCompletionData: Is inside comment: 0.02841700240969658
+Info 351  [19:52:42.533] getCompletionData: Get previous token: 0.04711400344967842
+Info 352  [19:52:42.533] getCompletionsAtPosition: isCompletionListBlocker: 0.015804998576641083
+Info 353  [19:52:42.536] getExportInfoMap: cache hit
+Info 354  [19:52:42.548] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 355  [19:52:42.548] collectAutoImports: response is complete
+Info 356  [19:52:42.548] collectAutoImports: 11.973655000329018
+Info 357  [19:52:42.548] getCompletionData: Semantic work: 15.02505499869585
+Info 358  [19:52:42.555] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.442648999392986
+Info 359  [19:52:42.560] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 360  [19:52:42.788] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 227.82270000129938ms
+Info 361  [19:52:42.788] Different program with same set of files
+Info 362  [19:52:43.050] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 363  [19:52:43.151] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 100.30295200273395ms
+Info 364  [19:52:43.151] Different program with same set of files
+Info 365  [19:52:43.152] getCompletionData: Get current token: 0.056405000388622284
+Info 366  [19:52:43.152] getCompletionData: Is inside comment: 0.09074800089001656
+Info 367  [19:52:43.153] getCompletionData: Get previous token: 0.1372079998254776
+Info 368  [19:52:43.153] getCompletionsAtPosition: isCompletionListBlocker: 0.01194799691438675
+Info 369  [19:52:43.156] getCompletionData: Semantic work: 2.827098000794649
+Info 370  [19:52:43.158] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.226512998342514
+Info 371  [19:52:43.708] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 372  [19:52:43.791] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 82.74464499950409ms
+Info 373  [19:52:43.791] Different program with same set of files
+Info 374  [19:52:44.132] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 375  [19:52:44.180] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 47.972432002425194ms
+Info 376  [19:52:44.180] Different program with same set of files
+Info 377  [19:52:44.283] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 378  [19:52:44.336] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 52.616119001060724ms
+Info 379  [19:52:44.336] Different program with same set of files
+Info 380  [19:52:44.410] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 381  [19:52:44.456] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 46.561447001993656ms
+Info 382  [19:52:44.456] Different program with same set of files
+Info 383  [19:52:44.612] getCompletionData: Get current token: 0.05525299906730652
+Info 384  [19:52:44.612] getCompletionData: Is inside comment: 0.015124998986721039
+Info 385  [19:52:44.613] getCompletionData: Get previous token: 0.20376300066709518
+Info 386  [19:52:44.613] getCompletionsAtPosition: isCompletionListBlocker: 0.15090100094676018
+Info 387  [19:52:44.622] getExportInfoMap: cache hit
+Info 388  [19:52:44.692] collectAutoImports: resolved 9 module specifiers, plus 0 ambient and -39 from cache
+Info 389  [19:52:44.692] collectAutoImports: response is complete
+Info 390  [19:52:44.692] collectAutoImports: 70.0436160005629
+Info 391  [19:52:44.692] getCompletionData: Semantic work: 79.2626029998064
+Info 392  [19:52:44.702] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.007352001965046
+Info 393  [19:52:44.951] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 394  [19:52:44.994] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 43.023564998060465ms
+Info 395  [19:52:44.994] Different program with same set of files
+Info 396  [19:52:44.994] getCompletionData: Get current token: 0.015425000339746475
+Info 397  [19:52:44.994] getCompletionData: Is inside comment: 0.003917999565601349
+Info 398  [19:52:44.994] getCompletionData: Get previous token: 0.059192996472120285
+Info 399  [19:52:44.994] getCompletionsAtPosition: isCompletionListBlocker: 0.006012998521327972
+Info 400  [19:52:45.001] getExportInfoMap: cache hit
+Info 401  [19:52:45.045] collectAutoImports: resolved 8 module specifiers, plus 0 ambient and -36 from cache
+Info 402  [19:52:45.045] collectAutoImports: response is complete
+Info 403  [19:52:45.045] collectAutoImports: 44.40427099913359
+Info 404  [19:52:45.045] getCompletionData: Semantic work: 50.662741001695395
+Info 405  [19:52:45.056] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.789456002414227
+Info 406  [19:52:45.061] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 407  [19:52:45.103] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 42.31017700210214ms
+Info 408  [19:52:45.103] Different program with same set of files
+Info 409  [19:52:46.211] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 410  [19:52:46.256] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 44.672247000038624ms
+Info 411  [19:52:46.256] Different program with same set of files
+Info 412  [19:52:53.967] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 413  [19:52:54.018] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 51.26783399656415ms
+Info 414  [19:52:54.018] Different program with same set of files
+Info 415  [19:52:54.019] getCompletionData: Get current token: 0.020925000309944153
+Info 416  [19:52:54.020] getCompletionData: Is inside comment: 0.04070400074124336
+Info 417  [19:52:54.020] getCompletionData: Get previous token: 0.03474799916148186
+Info 418  [19:52:54.020] getCompletionsAtPosition: isCompletionListBlocker: 0.0048430003225803375
+Info 419  [19:52:54.024] getCompletionData: Semantic work: 3.77904200181365
+Info 420  [19:52:54.024] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.6323259994387627
+Info 421  [19:52:54.590] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 422  [19:52:54.657] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 66.32155900076032ms
+Info 423  [19:52:54.657] Different program with same set of files
+Info 424  [19:52:54.807] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 425  [19:52:54.853] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 45.27794499695301ms
+Info 426  [19:52:54.853] Different program with same set of files
+Info 427  [19:52:54.853] getCompletionData: Get current token: 0.0516279973089695
+Info 428  [19:52:54.854] getCompletionData: Is inside comment: 0.021957002580165863
+Info 429  [19:52:54.854] getCompletionData: Get previous token: 0.053633999079465866
+Info 430  [19:52:54.854] getCompletionsAtPosition: isCompletionListBlocker: 0.004755999892950058
+Info 431  [19:52:54.857] getCompletionData: Semantic work: 3.748715002089739
+Info 432  [19:52:54.893] getCompletionData: Get current token: 0.037724997848272324
+Info 433  [19:52:54.893] getCompletionData: Is inside comment: 0.022799000144004822
+Info 434  [19:52:54.893] getCompletionData: Get previous token: 0.04276600107550621
+Info 435  [19:52:54.893] getCompletionsAtPosition: isCompletionListBlocker: 0.00489400327205658
+Info 436  [19:52:54.893] getCompletionData: Semantic work: 0.15969299897551537
+Info 437  [19:52:56.538] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 438  [19:52:56.586] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 47.96440399810672ms
+Info 439  [19:52:56.586] Different program with same set of files
+Info 440  [19:52:57.037] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 441  [19:52:57.103] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 65.87447000294924ms
+Info 442  [19:52:57.103] Different program with same set of files
+Info 443  [19:52:57.292] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 444  [19:52:57.333] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 41.260561998933554ms
+Info 445  [19:52:57.333] Different program with same set of files
+Info 446  [19:52:57.467] getCompletionData: Get current token: 0.02052300050854683
+Info 447  [19:52:57.467] getCompletionData: Is inside comment: 0.009181998670101166
+Info 448  [19:52:57.467] getCompletionData: Get previous token: 0.10230700299143791
+Info 449  [19:52:57.468] getCompletionsAtPosition: isCompletionListBlocker: 0.00929199904203415
+Info 450  [19:52:57.483] getExportInfoMap: cache hit
+Info 451  [19:52:57.565] collectAutoImports: resolved 4 module specifiers, plus 0 ambient and -38 from cache
+Info 452  [19:52:57.565] collectAutoImports: response is complete
+Info 453  [19:52:57.565] collectAutoImports: 81.91062499955297
+Info 454  [19:52:57.565] getCompletionData: Semantic work: 97.70575499907136
+Info 455  [19:52:57.588] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.100388001650572
+Info 456  [19:52:58.035] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 457  [19:52:58.086] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 50.154416996985674ms
+Info 458  [19:52:58.086] Different program with same set of files
+Info 459  [19:52:58.110] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 460  [19:52:58.168] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 58.60222800076008ms
+Info 461  [19:52:58.168] Different program with same set of files
+Info 462  [19:52:58.229] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 463  [19:52:58.275] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 45.92203100025654ms
+Info 464  [19:52:58.275] Different program with same set of files
+Info 465  [19:52:58.333] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 466  [19:52:58.378] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 45.203850999474525ms
+Info 467  [19:52:58.378] Different program with same set of files
+Info 468  [19:52:58.492] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 469  [19:52:58.536] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 43.30504699796438ms
+Info 470  [19:52:58.536] Different program with same set of files
+Info 471  [19:52:58.593] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 472  [19:52:58.638] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 44.70302100107074ms
+Info 473  [19:52:58.638] Different program with same set of files
+Info 474  [19:52:59.218] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 475  [19:52:59.275] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 56.30683000013232ms
+Info 476  [19:52:59.275] Different program with same set of files
+Info 477  [19:52:59.395] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 478  [19:52:59.496] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 100.26384199783206ms
+Info 479  [19:52:59.496] Different program with same set of files
+Info 480  [19:52:59.928] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 481  [19:52:59.978] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 49.475000999867916ms
+Info 482  [19:52:59.978] Different program with same set of files
+Info 483  [19:53:00.421] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 484  [19:53:00.475] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 53.77927000075579ms
+Info 485  [19:53:00.475] Different program with same set of files
+Info 486  [19:53:00.802] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 487  [19:53:00.844] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 41.86979300156236ms
+Info 488  [19:53:00.844] Different program with same set of files
+Info 489  [19:53:01.264] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 490  [19:53:01.330] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 66.22945299744606ms
+Info 491  [19:53:01.331] Different program with same set of files
+Info 492  [19:53:01.793] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 493  [19:53:01.849] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 56.44632099941373ms
+Info 494  [19:53:01.849] Different program with same set of files
+Info 495  [19:53:01.888] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 496  [19:53:01.931] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 42.76724199950695ms
+Info 497  [19:53:01.931] Different program with same set of files
+Info 498  [19:53:02.027] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 499  [19:53:02.081] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 53.79423899948597ms
+Info 500  [19:53:02.081] Different program with same set of files
+Info 501  [19:53:02.162] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 502  [19:53:02.208] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 45.796151999384165ms
+Info 503  [19:53:02.208] Different program with same set of files
+Info 504  [19:53:02.266] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 505  [19:53:02.327] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 61.31680700182915ms
+Info 506  [19:53:02.327] Different program with same set of files
+Info 507  [19:53:02.448] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 508  [19:53:02.506] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 57.58889400213957ms
+Info 509  [19:53:02.506] Different program with same set of files
+Info 510  [19:53:02.583] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 511  [19:53:02.641] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 57.48358399793506ms
+Info 512  [19:53:02.641] Different program with same set of files
+Info 513  [19:53:02.701] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 514  [19:53:02.742] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 41.25134499743581ms
+Info 515  [19:53:02.742] Different program with same set of files
+Info 516  [19:53:02.881] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 517  [19:53:02.978] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 97.43743100017309ms
+Info 518  [19:53:02.978] Different program with same set of files
+Info 519  [19:53:03.049] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 520  [19:53:03.095] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 45.305844001471996ms
+Info 521  [19:53:03.095] Different program with same set of files
+Info 522  [19:53:03.241] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 523  [19:53:03.354] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 113.05110500007868ms
+Info 524  [19:53:03.354] Different program with same set of files
+Info 525  [19:53:03.378] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 526  [19:53:03.433] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 54.691190999001265ms
+Info 527  [19:53:03.433] Different program with same set of files
+Info 528  [19:53:03.621] getCompletionData: Get current token: 0.021088000386953354
+Info 529  [19:53:03.621] getCompletionData: Is inside comment: 0.004781000316143036
+Info 530  [19:53:03.621] getCompletionData: Get previous token: 0.07258299738168716
+Info 531  [19:53:03.621] getCompletionsAtPosition: isCompletionListBlocker: 0.006962999701499939
+Info 532  [19:53:03.622] getCompletionData: Semantic work: 0.635453999042511
+Info 533  [19:53:03.623] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.2570099979639053
+Info 534  [19:53:03.992] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 535  [19:53:04.056] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 64.12636699900031ms
+Info 536  [19:53:04.056] Different program with same set of files
+Info 537  [19:53:05.086] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 538  [19:53:05.139] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 53.12075600028038ms
+Info 539  [19:53:05.139] Different program with same set of files
+Info 540  [19:53:05.460] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 541  [19:53:05.511] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 51.206893999129534ms
+Info 542  [19:53:05.512] Different program with same set of files
+Info 543  [19:53:05.528] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 544  [19:53:05.575] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 47.492325998842716ms
+Info 545  [19:53:05.575] Different program with same set of files
+Info 546  [19:53:05.752] getCompletionData: Get current token: 0.02991499751806259
+Info 547  [19:53:05.753] getCompletionData: Is inside comment: 0.011359002441167831
+Info 548  [19:53:05.753] getCompletionData: Get previous token: 0.10520399734377861
+Info 549  [19:53:05.753] getCompletionsAtPosition: isCompletionListBlocker: 0.02525300160050392
+Info 550  [19:53:05.757] getExportInfoMap: cache hit
+Info 551  [19:53:05.808] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 51 from cache
+Info 552  [19:53:05.808] collectAutoImports: response is complete
+Info 553  [19:53:05.808] collectAutoImports: 50.45863699913025
+Info 554  [19:53:05.808] getCompletionData: Semantic work: 55.04323199763894
+Info 555  [19:53:05.819] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.899006001651287
+Info 556  [19:53:05.825] getCompletionData: Get current token: 0.022532999515533447
+Info 557  [19:53:05.825] getCompletionData: Is inside comment: 0.004220001399517059
+Info 558  [19:53:05.825] getCompletionData: Get previous token: 0.06597699970006943
+Info 559  [19:53:05.825] getCompletionsAtPosition: isCompletionListBlocker: 0.008290000259876251
+Info 560  [19:53:05.832] getExportInfoMap: cache hit
+Info 561  [19:53:05.855] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 51 from cache
+Info 562  [19:53:05.855] collectAutoImports: response is complete
+Info 563  [19:53:05.855] collectAutoImports: 22.970049001276493
+Info 564  [19:53:05.855] getCompletionData: Semantic work: 30.056494001299143
+Info 565  [19:53:05.862] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.290999002754688
+Info 566  [19:53:05.867] getCompletionData: Get current token: 0.023719999939203262
+Info 567  [19:53:05.867] getCompletionData: Is inside comment: 0.006783001124858856
+Info 568  [19:53:05.867] getCompletionData: Get previous token: 0.06386300176382065
+Info 569  [19:53:05.868] getCompletionsAtPosition: isCompletionListBlocker: 0.009821001440286636
+Info 570  [19:53:05.872] getExportInfoMap: cache hit
+Info 571  [19:53:05.891] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 51 from cache
+Info 572  [19:53:05.891] collectAutoImports: response is complete
+Info 573  [19:53:05.891] collectAutoImports: 19.35700199753046
+Info 574  [19:53:05.891] getCompletionData: Semantic work: 23.883949998766184
+Info 575  [19:53:05.900] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.286288999021053
+Info 576  [19:53:05.904] getCompletionData: Get current token: 0.023909002542495728
+Info 577  [19:53:05.904] getCompletionData: Is inside comment: 0.004726998507976532
+Info 578  [19:53:05.905] getCompletionData: Get previous token: 0.0781329981982708
+Info 579  [19:53:05.905] getCompletionsAtPosition: isCompletionListBlocker: 0.009520001709461212
+Info 580  [19:53:05.909] getExportInfoMap: cache hit
+Info 581  [19:53:05.927] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 51 from cache
+Info 582  [19:53:05.927] collectAutoImports: response is complete
+Info 583  [19:53:05.927] collectAutoImports: 17.43545799702406
+Info 584  [19:53:05.927] getCompletionData: Semantic work: 22.34665000066161
+Info 585  [19:53:05.934] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.140473000705242
+Info 586  [19:53:05.938] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 587  [19:53:05.977] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 38.82317800074816ms
+Info 588  [19:53:05.977] Different program with same set of files
+Info 589  [19:53:06.034] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 590  [19:53:06.080] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 46.04486399888992ms
+Info 591  [19:53:06.080] Different program with same set of files
+Info 592  [19:53:06.084] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 593  [19:53:06.126] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 42.29058000072837ms
+Info 594  [19:53:06.126] Different program with same set of files
+Info 595  [19:53:06.130] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 596  [19:53:06.168] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 38.26901300251484ms
+Info 597  [19:53:06.168] Different program with same set of files
+Info 598  [19:53:06.171] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 599  [19:53:06.211] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 40.49695399776101ms
+Info 600  [19:53:06.211] Different program with same set of files
+Info 601  [19:53:06.258] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 602  [19:53:06.296] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 38.353483002632856ms
+Info 603  [19:53:06.296] Different program with same set of files
+Info 604  [19:53:06.504] getCompletionData: Get current token: 0.023051999509334564
+Info 605  [19:53:06.504] getCompletionData: Is inside comment: 0.004640001803636551
+Info 606  [19:53:06.504] getCompletionData: Get previous token: 0.07258500158786774
+Info 607  [19:53:06.505] getCompletionsAtPosition: isCompletionListBlocker: 0.011050000786781311
+Info 608  [19:53:06.508] getExportInfoMap: cache hit
+Info 609  [19:53:06.528] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 610  [19:53:06.528] collectAutoImports: response is complete
+Info 611  [19:53:06.528] collectAutoImports: 20.269418999552727
+Info 612  [19:53:06.528] getCompletionData: Semantic work: 23.02818899974227
+Info 613  [19:53:06.535] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.919344000518322
+Info 614  [19:53:06.545] getCompletionData: Get current token: 0.021180998533964157
+Info 615  [19:53:06.545] getCompletionData: Is inside comment: 0.0043179988861083984
+Info 616  [19:53:06.545] getCompletionData: Get previous token: 0.0638439990580082
+Info 617  [19:53:06.545] getCompletionsAtPosition: isCompletionListBlocker: 0.0073609985411167145
+Info 618  [19:53:06.548] getExportInfoMap: cache hit
+Info 619  [19:53:06.559] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 620  [19:53:06.559] collectAutoImports: response is complete
+Info 621  [19:53:06.559] collectAutoImports: 11.702580999583006
+Info 622  [19:53:06.559] getCompletionData: Semantic work: 14.416884001344442
+Info 623  [19:53:06.566] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.666791003197432
+Info 624  [19:53:06.570] getCompletionData: Get current token: 0.021820999681949615
+Info 625  [19:53:06.570] getCompletionData: Is inside comment: 0.004409000277519226
+Info 626  [19:53:06.570] getCompletionData: Get previous token: 0.067671999335289
+Info 627  [19:53:06.571] getCompletionsAtPosition: isCompletionListBlocker: 0.017537999898195267
+Info 628  [19:53:06.574] getExportInfoMap: cache hit
+Info 629  [19:53:06.586] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 630  [19:53:06.586] collectAutoImports: response is complete
+Info 631  [19:53:06.586] collectAutoImports: 12.18240400031209
+Info 632  [19:53:06.586] getCompletionData: Semantic work: 15.665713001042604
+Info 633  [19:53:06.593] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.647663000971079
+Info 634  [19:53:06.596] getCompletionData: Get current token: 0.02189600095152855
+Info 635  [19:53:06.596] getCompletionData: Is inside comment: 0.004792001098394394
+Info 636  [19:53:06.597] getCompletionData: Get previous token: 0.06647200137376785
+Info 637  [19:53:06.597] getCompletionsAtPosition: isCompletionListBlocker: 0.014139998704195023
+Info 638  [19:53:06.599] getExportInfoMap: cache hit
+Info 639  [19:53:06.611] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 640  [19:53:06.611] collectAutoImports: response is complete
+Info 641  [19:53:06.611] collectAutoImports: 11.879393998533487
+Info 642  [19:53:06.611] getCompletionData: Semantic work: 14.713392000645399
+Info 643  [19:53:06.618] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.705834999680519
+Info 644  [19:53:25.103] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 645  [19:53:25.182] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 79.24023699760437ms
+Info 646  [19:53:25.182] Different program with same set of files
+Info 647  [19:54:38.948] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 648  [19:54:39.150] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 202.22357899695635ms
+Info 649  [19:54:39.150] Different program with same set of files
+Info 650  [19:54:39.152] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 651  [19:54:39.248] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 96.29179400205612ms
+Info 652  [19:54:39.248] Different program with same set of files
+Info 653  [19:54:40.614] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 654  [19:54:40.772] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 157.0993689969182ms
+Info 655  [19:54:40.772] Different program with same set of files
+Info 656  [19:54:40.773] getCompletionData: Get current token: 0.02562600001692772
+Info 657  [19:54:40.774] getCompletionData: Is inside comment: 0.05812099948525429
+Info 658  [19:54:40.774] getCompletionData: Get previous token: 0.09630800038576126
+Info 659  [19:54:40.774] getCompletionsAtPosition: isCompletionListBlocker: 0.013919997960329056
+Info 660  [19:54:40.775] getCompletionData: Semantic work: 0.911760002374649
+Info 661  [19:54:40.776] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.458195999264717
+Info 662  [19:54:41.717] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 663  [19:54:41.812] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 94.76922400295734ms
+Info 664  [19:54:41.812] Different program with same set of files
+Info 665  [19:54:42.543] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 666  [19:54:42.633] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 89.18948899954557ms
+Info 667  [19:54:42.633] Different program with same set of files
+Info 668  [19:54:42.642] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 669  [19:54:42.718] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 75.82133699953556ms
+Info 670  [19:54:42.718] Different program with same set of files
+Info 671  [19:54:42.721] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 672  [19:54:42.782] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 60.82022899761796ms
+Info 673  [19:54:42.782] Different program with same set of files
+Info 674  [19:54:42.784] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 675  [19:54:42.834] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 50.05700400099158ms
+Info 676  [19:54:42.834] Different program with same set of files
+Info 677  [19:54:42.917] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 678  [19:54:42.981] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 64.25474500283599ms
+Info 679  [19:54:42.981] Different program with same set of files
+Info 680  [19:54:43.118] getCompletionData: Get current token: 0.017621997743844986
+Info 681  [19:54:43.118] getCompletionData: Is inside comment: 0.0045079998672008514
+Info 682  [19:54:43.118] getCompletionData: Get previous token: 0.05110099911689758
+Info 683  [19:54:43.118] getCompletionsAtPosition: isCompletionListBlocker: 0.062474001199007034
+Info 684  [19:54:43.128] getExportInfoMap: cache hit
+Info 685  [19:54:43.172] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 686  [19:54:43.172] collectAutoImports: response is complete
+Info 687  [19:54:43.172] collectAutoImports: 44.054395001381636
+Info 688  [19:54:43.172] getCompletionData: Semantic work: 53.26984500139952
+Info 689  [19:54:43.183] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.831816997379065
+Info 690  [19:54:43.352] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 691  [19:54:43.407] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 54.497314997017384ms
+Info 692  [19:54:43.407] Different program with same set of files
+Info 693  [19:54:43.409] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 694  [19:54:43.460] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 50.296833001077175ms
+Info 695  [19:54:43.460] Different program with same set of files
+Info 696  [19:54:43.462] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 697  [19:54:43.507] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 44.64400799944997ms
+Info 698  [19:54:43.507] Different program with same set of files
+Info 699  [19:54:43.575] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 700  [19:54:43.631] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 55.356541000306606ms
+Info 701  [19:54:43.631] Different program with same set of files
+Info 702  [19:54:43.634] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 703  [19:54:43.683] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 49.78111099824309ms
+Info 704  [19:54:43.684] Different program with same set of files
+Info 705  [19:54:43.832] getCompletionData: Get current token: 0.05727499723434448
+Info 706  [19:54:43.832] getCompletionData: Is inside comment: 0.013900000602006912
+Info 707  [19:54:43.832] getCompletionData: Get previous token: 0.18024899810552597
+Info 708  [19:54:43.832] getCompletionsAtPosition: isCompletionListBlocker: 0.17928100004792213
+Info 709  [19:54:43.846] getExportInfoMap: cache hit
+Info 710  [19:54:43.906] collectAutoImports: resolved 4 module specifiers, plus 0 ambient and -11 from cache
+Info 711  [19:54:43.906] collectAutoImports: response is complete
+Info 712  [19:54:43.906] collectAutoImports: 59.52199500054121
+Info 713  [19:54:43.906] getCompletionData: Semantic work: 73.29955099895597
+Info 714  [19:54:43.917] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.381687998771667
+Info 715  [19:54:43.965] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 716  [19:54:44.015] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 49.739761997014284ms
+Info 717  [19:54:44.015] Different program with same set of files
+Info 718  [19:54:44.016] getCompletionData: Get current token: 0.015831999480724335
+Info 719  [19:54:44.016] getCompletionData: Is inside comment: 0.0056569986045360565
+Info 720  [19:54:44.016] getCompletionData: Get previous token: 0.05341700091958046
+Info 721  [19:54:44.016] getCompletionsAtPosition: isCompletionListBlocker: 0.00987900048494339
+Info 722  [19:54:44.021] getExportInfoMap: cache hit
+Info 723  [19:54:44.050] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 15 from cache
+Info 724  [19:54:44.050] collectAutoImports: response is complete
+Info 725  [19:54:44.050] collectAutoImports: 28.489525001496077
+Info 726  [19:54:44.050] getCompletionData: Semantic work: 33.70607200264931
+Info 727  [19:54:44.061] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.309088997542858
+Info 728  [19:54:44.115] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 729  [19:54:44.165] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 49.13443699851632ms
+Info 730  [19:54:44.165] Different program with same set of files
+Info 731  [19:54:44.165] getCompletionData: Get current token: 0.018557000905275345
+Info 732  [19:54:44.165] getCompletionData: Is inside comment: 0.00711200013756752
+Info 733  [19:54:44.168] getCompletionData: Get previous token: 2.3758729994297028
+Info 734  [19:54:44.168] getCompletionsAtPosition: isCompletionListBlocker: 0.013693001121282578
+Info 735  [19:54:44.179] getExportInfoMap: cache hit
+Info 736  [19:54:44.207] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 737  [19:54:44.207] collectAutoImports: response is complete
+Info 738  [19:54:44.207] collectAutoImports: 27.459874000400305
+Info 739  [19:54:44.207] getCompletionData: Semantic work: 39.10425800085068
+Info 740  [19:54:44.215] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.158906001597643
+Info 741  [19:55:16.797] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 742  [19:55:16.983] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 185.96189999952912ms
+Info 743  [19:55:16.983] Different program with same set of files
+Info 744  [19:55:40.791] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 745  [19:55:40.891] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 99.99789100140333ms
+Info 746  [19:55:40.891] Different program with same set of files
+Info 747  [19:55:40.894] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 748  [19:55:40.952] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 58.14736100286245ms
+Info 749  [19:55:40.952] Different program with same set of files
+Info 750  [19:55:42.418] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 751  [19:55:42.483] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 65.14226600155234ms
+Info 752  [19:55:42.483] Different program with same set of files
+Info 753  [19:55:42.484] getCompletionData: Get current token: 0.023481998592615128
+Info 754  [19:55:42.484] getCompletionData: Is inside comment: 0.04234899953007698
+Info 755  [19:55:42.484] getCompletionData: Get previous token: 0.06806299835443497
+Info 756  [19:55:42.484] getCompletionsAtPosition: isCompletionListBlocker: 0.005743000656366348
+Info 757  [19:55:42.485] getCompletionData: Semantic work: 0.631462998688221
+Info 758  [19:55:42.486] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.8288870006799698
+Info 759  [19:55:42.972] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 760  [19:55:43.029] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 56.583084002137184ms
+Info 761  [19:55:43.029] Different program with same set of files
+Info 762  [19:55:43.394] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 763  [19:55:43.462] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 68.03990500047803ms
+Info 764  [19:55:43.463] Different program with same set of files
+Info 765  [19:55:43.465] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 766  [19:55:43.528] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 63.04558800160885ms
+Info 767  [19:55:43.528] Different program with same set of files
+Info 768  [19:55:43.576] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 769  [19:55:43.622] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 45.8879839964211ms
+Info 770  [19:55:43.623] Different program with same set of files
+Info 771  [19:55:43.626] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 772  [19:55:43.674] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 48.07725199684501ms
+Info 773  [19:55:43.674] Different program with same set of files
+Info 774  [19:56:57.393] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 775  [19:56:57.511] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 117.50494600087404ms
+Info 776  [19:56:57.511] Different program with same set of files
+Info 777  [19:56:59.330] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 778  [19:56:59.461] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 131.14547999948263ms
+Info 779  [19:56:59.461] Different program with same set of files
+Info 780  [19:58:15.528] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 781  [19:58:15.628] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 99.76693199947476ms
+Info 782  [19:58:15.628] Different program with same set of files
+Info 783  [19:58:41.455] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 784  [19:58:41.545] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 89.8555519990623ms
+Info 785  [19:58:41.545] Different program with same set of files
+Info 786  [20:00:42.761] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 787  [20:00:42.847] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 86.00640999898314ms
+Info 788  [20:00:42.847] Different program with same set of files
+Info 789  [20:00:44.484] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 790  [20:00:44.534] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 99 structureChanged: false structureIsReused:: Completely Elapsed: 49.73216000199318ms
+Info 791  [20:00:44.534] Different program with same set of files
+Info 792  [20:00:44.535] getCompletionData: Get current token: 0.01896899938583374
+Info 793  [20:00:44.535] getCompletionData: Is inside comment: 0.04878300055861473
+Info 794  [20:00:44.535] getCompletionData: Get previous token: 0.07527299970388412
+Info 795  [20:00:44.535] getCompletionsAtPosition: isCompletionListBlocker: 0.217289999127388
+Info 796  [20:00:44.540] getExportInfoMap: cache miss or empty; calculating new results
+Info 797  [20:00:44.722] forEachExternalModuleToImportFrom autoImportProvider: 23.264880999922752
+Info 798  [20:00:44.722] getExportInfoMap: done in 182.3010529987514 ms
+Info 799  [20:00:44.963] collectAutoImports: resolved 100 module specifiers, plus 0 ambient and -16495 from cache (-58910.7% hit rate)
+Info 800  [20:00:44.963] collectAutoImports: response is incomplete
+Info 801  [20:00:44.963] collectAutoImports: 240.5558179989457
+Info 802  [20:00:44.963] getCompletionData: Semantic work: 427.6731689982116
+Info 803  [20:00:44.982] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.325432002544403
+Info 804  [20:00:44.994] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 805  [20:00:45.120] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 126.34763200208545ms
+Info 806  [20:00:45.120] Different program with same set of files
+Info 807  [20:00:45.274] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 808  [20:00:45.337] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 101 structureChanged: false structureIsReused:: Completely Elapsed: 63.28363899886608ms
+Info 809  [20:00:45.338] Different program with same set of files
+Info 810  [20:00:47.991] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 811  [20:00:48.032] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 102 structureChanged: false structureIsReused:: Completely Elapsed: 41.08746900036931ms
+Info 812  [20:00:48.032] Different program with same set of files
+Info 813  [20:02:25.154] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 814  [20:02:25.265] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 103 structureChanged: false structureIsReused:: Completely Elapsed: 111.41869100183249ms
+Info 815  [20:02:25.265] Different program with same set of files
+Info 816  [20:02:26.617] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 817  [20:02:26.692] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 104 structureChanged: false structureIsReused:: Completely Elapsed: 75.32834799960256ms
+Info 818  [20:02:26.692] Different program with same set of files
+Info 819  [20:02:26.693] getCompletionData: Get current token: 0.02047000080347061
+Info 820  [20:02:26.693] getCompletionData: Is inside comment: 0.047509998083114624
+Info 821  [20:02:26.693] getCompletionData: Get previous token: 0.0729369968175888
+Info 822  [20:02:26.693] getCompletionsAtPosition: isCompletionListBlocker: 0.23455600067973137
+Info 823  [20:02:26.697] getExportInfoMap: cache hit
+Info 824  [20:02:26.859] collectAutoImports: resolved 1 module specifiers, plus 0 ambient and 582 from cache
+Info 825  [20:02:26.859] collectAutoImports: response is complete
+Info 826  [20:02:26.859] collectAutoImports: 161.4694360010326
+Info 827  [20:02:26.859] getCompletionData: Semantic work: 165.80403099954128
+Info 828  [20:02:26.873] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.998615000396967
+Info 829  [20:02:26.881] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 830  [20:02:26.934] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 105 structureChanged: false structureIsReused:: Completely Elapsed: 52.20838500186801ms
+Info 831  [20:02:26.934] Different program with same set of files
+Info 832  [20:02:27.409] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 833  [20:02:27.459] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 106 structureChanged: false structureIsReused:: Completely Elapsed: 49.890760999172926ms
+Info 834  [20:02:27.459] Different program with same set of files
+Info 835  [20:02:28.132] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 836  [20:02:28.229] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 107 structureChanged: false structureIsReused:: Completely Elapsed: 96.60803299769759ms
+Info 837  [20:02:28.229] Different program with same set of files
+Info 838  [20:02:33.642] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 839  [20:02:33.711] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 108 structureChanged: false structureIsReused:: Completely Elapsed: 68.76358399912715ms
+Info 840  [20:02:33.711] Different program with same set of files
+Info 841  [20:02:48.358] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable
+Info 842  [20:02:48.358] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/TableBody.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 843  [20:05:19.128] Search path: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable
+Info 844  [20:05:19.128] For info: /home/rodrigo/Workspace/wikidex-learning-react/src/components/PokemonTable/Sprite.js :: Config file name: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 845  [20:05:55.590] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 846  [20:05:55.695] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 109 structureChanged: false structureIsReused:: Completely Elapsed: 104.32130700349808ms
+Info 847  [20:05:55.695] Different program with same set of files
+Info 848  [20:05:56.474] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 849  [20:05:56.542] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 68.22048199921846ms
+Info 850  [20:05:56.542] Different program with same set of files
+Info 851  [20:05:57.153] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 852  [20:05:57.221] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 111 structureChanged: false structureIsReused:: Completely Elapsed: 68.11026000231504ms
+Info 853  [20:05:57.221] Different program with same set of files
+Info 854  [20:05:57.508] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 855  [20:05:57.571] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 112 structureChanged: false structureIsReused:: Completely Elapsed: 62.82798300310969ms
+Info 856  [20:05:57.571] Different program with same set of files
+Info 857  [20:05:57.571] getCompletionData: Get current token: 0.012738000601530075
+Info 858  [20:05:57.572] getCompletionData: Is inside comment: 0.031314000487327576
+Info 859  [20:05:57.572] getCompletionData: Get previous token: 0.04745100066065788
+Info 860  [20:05:57.572] getCompletionsAtPosition: isCompletionListBlocker: 0.005557999014854431
+Info 861  [20:05:57.575] getExportInfoMap: cache miss or empty; calculating new results
+Info 862  [20:05:57.753] forEachExternalModuleToImportFrom autoImportProvider: 10.912216000258923
+Info 863  [20:05:57.753] getExportInfoMap: done in 177.47751799970865 ms
+Info 864  [20:05:57.773] collectAutoImports: resolved 5 module specifiers, plus 0 ambient and -5 from cache
+Info 865  [20:05:57.773] collectAutoImports: response is complete
+Info 866  [20:05:57.773] collectAutoImports: 20.03836800158024
+Info 867  [20:05:57.773] getCompletionData: Semantic work: 201.14139899984002
+Info 868  [20:05:57.812] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.620255000889301
+Info 869  [20:05:58.135] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 870  [20:05:58.180] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 113 structureChanged: false structureIsReused:: Completely Elapsed: 45.06334300339222ms
+Info 871  [20:05:58.180] Different program with same set of files
+Info 872  [20:05:58.180] getCompletionData: Get current token: 0.013096999377012253
+Info 873  [20:05:58.180] getCompletionData: Is inside comment: 0.03285599872469902
+Info 874  [20:05:58.180] getCompletionData: Get previous token: 0.07289000228047371
+Info 875  [20:05:58.181] getCompletionsAtPosition: isCompletionListBlocker: 0.00799499824643135
+Info 876  [20:05:58.185] getExportInfoMap: cache hit
+Info 877  [20:05:58.226] collectAutoImports: resolved 18 module specifiers, plus 0 ambient and -242 from cache
+Info 878  [20:05:58.226] collectAutoImports: response is complete
+Info 879  [20:05:58.226] collectAutoImports: 41.0265990011394
+Info 880  [20:05:58.226] getCompletionData: Semantic work: 45.20123599842191
+Info 881  [20:05:58.291] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.000557001680136
+Info 882  [20:05:58.555] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 883  [20:05:58.601] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 114 structureChanged: false structureIsReused:: Completely Elapsed: 46.41251500323415ms
+Info 884  [20:05:58.601] Different program with same set of files
+Info 885  [20:05:58.602] getCompletionData: Get current token: 0.014910001307725906
+Info 886  [20:05:58.602] getCompletionData: Is inside comment: 0.004710998386144638
+Info 887  [20:05:58.602] getCompletionData: Get previous token: 0.05331199988722801
+Info 888  [20:05:58.602] getCompletionsAtPosition: isCompletionListBlocker: 0.017138998955488205
+Info 889  [20:05:58.602] Returning an empty list because completion was requested in an invalid position.
+Info 890  [20:05:58.634] getCompletionData: Get current token: 0.015569999814033508
+Info 891  [20:05:58.634] getCompletionData: Is inside comment: 0.004806999117136002
+Info 892  [20:05:58.634] getCompletionData: Get previous token: 0.06501900032162666
+Info 893  [20:05:58.634] getCompletionsAtPosition: isCompletionListBlocker: 0.016467999666929245
+Info 894  [20:05:58.634] Returning an empty list because completion was requested in an invalid position.
+Info 895  [20:05:58.773] getCompletionData: Get current token: 0.011552996933460236
+Info 896  [20:05:58.773] getCompletionData: Is inside comment: 0.004662998020648956
+Info 897  [20:05:58.773] getCompletionData: Get previous token: 0.030285999178886414
+Info 898  [20:05:58.773] getCompletionsAtPosition: isCompletionListBlocker: 0.013999000191688538
+Info 899  [20:05:58.773] Returning an empty list because completion was requested in an invalid position.
+Info 900  [20:05:58.775] getCompletionData: Get current token: 0.011668000370264053
+Info 901  [20:05:58.775] getCompletionData: Is inside comment: 0.004700999706983566
+Info 902  [20:05:58.775] getCompletionData: Get previous token: 0.040564000606536865
+Info 903  [20:05:58.775] getCompletionsAtPosition: isCompletionListBlocker: 0.01782199740409851
+Info 904  [20:05:58.775] Returning an empty list because completion was requested in an invalid position.
+Info 905  [20:05:59.757] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 906  [20:05:59.827] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 115 structureChanged: false structureIsReused:: Completely Elapsed: 70.06456999853253ms
+Info 907  [20:05:59.827] Different program with same set of files
+Info 908  [20:06:05.454] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 909  [20:06:05.516] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 116 structureChanged: false structureIsReused:: Completely Elapsed: 61.63414900004864ms
+Info 910  [20:06:05.516] Different program with same set of files
+Info 911  [20:06:05.519] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 912  [20:06:05.563] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 117 structureChanged: false structureIsReused:: Completely Elapsed: 44.77497399970889ms
+Info 913  [20:06:05.563] Different program with same set of files
+Info 914  [20:06:05.896] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 915  [20:06:05.949] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 118 structureChanged: false structureIsReused:: Completely Elapsed: 53.62931200116873ms
+Info 916  [20:06:05.949] Different program with same set of files
+Info 917  [20:06:05.982] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 918  [20:06:06.023] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 119 structureChanged: false structureIsReused:: Completely Elapsed: 40.90507699921727ms
+Info 919  [20:06:06.023] Different program with same set of files
+Info 920  [20:06:06.921] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 921  [20:06:06.973] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 120 structureChanged: false structureIsReused:: Completely Elapsed: 52.04712700098753ms
+Info 922  [20:06:06.974] Different program with same set of files
+Info 923  [20:06:10.744] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 924  [20:06:10.808] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 121 structureChanged: false structureIsReused:: Completely Elapsed: 63.38168999925256ms
+Info 925  [20:06:10.808] Different program with same set of files
+Info 926  [20:06:11.531] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 927  [20:06:11.581] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 122 structureChanged: false structureIsReused:: Completely Elapsed: 50.00715800002217ms
+Info 928  [20:06:11.581] Different program with same set of files
+Info 929  [20:06:12.050] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 930  [20:06:12.123] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 123 structureChanged: false structureIsReused:: Completely Elapsed: 72.25505400076509ms
+Info 931  [20:06:12.123] Different program with same set of files
+Info 932  [20:06:12.123] getCompletionData: Get current token: 0.013941001147031784
+Info 933  [20:06:12.123] getCompletionData: Is inside comment: 0.004055000841617584
+Info 934  [20:06:12.124] getCompletionData: Get previous token: 0.049001000821590424
+Info 935  [20:06:12.124] getCompletionsAtPosition: isCompletionListBlocker: 0.017667997628450394
+Info 936  [20:06:12.124] Returning an empty list because completion was requested in an invalid position.
+Info 937  [20:06:12.151] getCompletionData: Get current token: 0.011844001710414886
+Info 938  [20:06:12.151] getCompletionData: Is inside comment: 0.004455000162124634
+Info 939  [20:06:12.151] getCompletionData: Get previous token: 0.03280100226402283
+Info 940  [20:06:12.151] getCompletionsAtPosition: isCompletionListBlocker: 0.01617100089788437
+Info 941  [20:06:12.151] Returning an empty list because completion was requested in an invalid position.
+Info 942  [20:06:12.152] getCompletionData: Get current token: 0.010456997901201248
+Info 943  [20:06:12.152] getCompletionData: Is inside comment: 0.0037769973278045654
+Info 944  [20:06:12.152] getCompletionData: Get previous token: 0.028829999268054962
+Info 945  [20:06:12.152] getCompletionsAtPosition: isCompletionListBlocker: 0.009594999253749847
+Info 946  [20:06:12.152] Returning an empty list because completion was requested in an invalid position.
+Info 947  [20:06:12.152] getCompletionData: Get current token: 0.010447997599840164
+Info 948  [20:06:12.152] getCompletionData: Is inside comment: 0.003165997564792633
+Info 949  [20:06:12.152] getCompletionData: Get previous token: 0.029185999184846878
+Info 950  [20:06:12.152] getCompletionsAtPosition: isCompletionListBlocker: 0.008177999407052994
+Info 951  [20:06:12.152] Returning an empty list because completion was requested in an invalid position.
+Info 952  [20:06:12.528] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 953  [20:06:12.594] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 124 structureChanged: false structureIsReused:: Completely Elapsed: 65.72334900125861ms
+Info 954  [20:06:12.594] Different program with same set of files
+Info 955  [20:06:12.595] getCompletionData: Get current token: 0.014747001230716705
+Info 956  [20:06:12.595] getCompletionData: Is inside comment: 0.00443900004029274
+Info 957  [20:06:12.595] getCompletionData: Get previous token: 0.04713299870491028
+Info 958  [20:06:12.595] getCompletionsAtPosition: isCompletionListBlocker: 0.014667000621557236
+Info 959  [20:06:12.595] Returning an empty list because completion was requested in an invalid position.
+Info 960  [20:06:12.595] getCompletionData: Get current token: 0.010200001299381256
+Info 961  [20:06:12.595] getCompletionData: Is inside comment: 0.0033390000462532043
+Info 962  [20:06:12.595] getCompletionData: Get previous token: 0.029433999210596085
+Info 963  [20:06:12.595] getCompletionsAtPosition: isCompletionListBlocker: 0.00863100215792656
+Info 964  [20:06:12.595] Returning an empty list because completion was requested in an invalid position.
+Info 965  [20:06:12.595] getCompletionData: Get current token: 0.010053999722003937
+Info 966  [20:06:12.595] getCompletionData: Is inside comment: 0.003387000411748886
+Info 967  [20:06:12.595] getCompletionData: Get previous token: 0.03009599819779396
+Info 968  [20:06:12.595] getCompletionsAtPosition: isCompletionListBlocker: 0.00778600201010704
+Info 969  [20:06:12.595] Returning an empty list because completion was requested in an invalid position.
+Info 970  [20:06:12.595] getCompletionData: Get current token: 0.01015700027346611
+Info 971  [20:06:12.595] getCompletionData: Is inside comment: 0.0031940005719661713
+Info 972  [20:06:12.596] getCompletionData: Get previous token: 0.028595000505447388
+Info 973  [20:06:12.596] getCompletionsAtPosition: isCompletionListBlocker: 0.008153997361660004
+Info 974  [20:06:12.596] Returning an empty list because completion was requested in an invalid position.
+Info 975  [20:06:12.596] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 976  [20:06:12.640] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 125 structureChanged: false structureIsReused:: Completely Elapsed: 44.43785500153899ms
+Info 977  [20:06:12.640] Different program with same set of files
+Info 978  [20:06:12.931] getCompletionData: Get current token: 0.014164000749588013
+Info 979  [20:06:12.931] getCompletionData: Is inside comment: 0.004914000630378723
+Info 980  [20:06:12.931] getCompletionData: Get previous token: 0.04657500237226486
+Info 981  [20:06:12.931] getCompletionsAtPosition: isCompletionListBlocker: 0.01919199898838997
+Info 982  [20:06:12.931] Returning an empty list because completion was requested in an invalid position.
+Info 983  [20:06:12.957] getCompletionData: Get current token: 0.012788001447916031
+Info 984  [20:06:12.958] getCompletionData: Is inside comment: 0.003995001316070557
+Info 985  [20:06:12.958] getCompletionData: Get previous token: 0.03620700165629387
+Info 986  [20:06:12.958] getCompletionsAtPosition: isCompletionListBlocker: 0.014754999428987503
+Info 987  [20:06:12.958] Returning an empty list because completion was requested in an invalid position.
+Info 988  [20:06:12.960] getCompletionData: Get current token: 0.012295998632907867
+Info 989  [20:06:12.960] getCompletionData: Is inside comment: 0.004461999982595444
+Info 990  [20:06:12.960] getCompletionData: Get previous token: 0.03241100162267685
+Info 991  [20:06:12.960] getCompletionsAtPosition: isCompletionListBlocker: 0.01795000210404396
+Info 992  [20:06:12.960] Returning an empty list because completion was requested in an invalid position.
+Info 993  [20:06:13.038] getCompletionData: Get current token: 0.011407002806663513
+Info 994  [20:06:13.038] getCompletionData: Is inside comment: 0.00403900071978569
+Info 995  [20:06:13.038] getCompletionData: Get previous token: 0.02957100048661232
+Info 996  [20:06:13.038] getCompletionsAtPosition: isCompletionListBlocker: 0.014100998640060425
+Info 997  [20:06:13.038] Returning an empty list because completion was requested in an invalid position.
+Info 998  [20:06:13.307] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 999  [20:06:13.369] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 126 structureChanged: false structureIsReused:: Completely Elapsed: 61.877594999969006ms
+Info 1000 [20:06:13.369] Different program with same set of files
+Info 1001 [20:06:13.675] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1002 [20:06:13.735] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 127 structureChanged: false structureIsReused:: Completely Elapsed: 60.18378399685025ms
+Info 1003 [20:06:13.735] Different program with same set of files
+Info 1004 [20:06:13.736] getCompletionData: Get current token: 0.013718999922275543
+Info 1005 [20:06:13.736] getCompletionData: Is inside comment: 0.004257999360561371
+Info 1006 [20:06:13.736] getCompletionData: Get previous token: 0.05294499918818474
+Info 1007 [20:06:13.736] getCompletionsAtPosition: isCompletionListBlocker: 0.01576399803161621
+Info 1008 [20:06:13.736] Returning an empty list because completion was requested in an invalid position.
+Info 1009 [20:06:13.764] getCompletionData: Get current token: 0.012637000530958176
+Info 1010 [20:06:13.764] getCompletionData: Is inside comment: 0.0049549974501132965
+Info 1011 [20:06:13.764] getCompletionData: Get previous token: 0.03447100147604942
+Info 1012 [20:06:13.764] getCompletionsAtPosition: isCompletionListBlocker: 0.01956000179052353
+Info 1013 [20:06:13.764] Returning an empty list because completion was requested in an invalid position.
+Info 1014 [20:06:13.891] getCompletionData: Get current token: 0.03306100144982338
+Info 1015 [20:06:13.891] getCompletionData: Is inside comment: 0.004572000354528427
+Info 1016 [20:06:13.891] getCompletionData: Get previous token: 0.030650999397039413
+Info 1017 [20:06:13.891] getCompletionsAtPosition: isCompletionListBlocker: 0.014462001621723175
+Info 1018 [20:06:13.891] Returning an empty list because completion was requested in an invalid position.
+Info 1019 [20:06:13.893] getCompletionData: Get current token: 0.011006999760866165
+Info 1020 [20:06:13.893] getCompletionData: Is inside comment: 0.003913000226020813
+Info 1021 [20:06:13.893] getCompletionData: Get previous token: 0.02975500002503395
+Info 1022 [20:06:13.893] getCompletionsAtPosition: isCompletionListBlocker: 0.012536998838186264
+Info 1023 [20:06:13.893] Returning an empty list because completion was requested in an invalid position.
+Info 1024 [20:06:14.811] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1025 [20:06:14.871] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 128 structureChanged: false structureIsReused:: Completely Elapsed: 59.905354999005795ms
+Info 1026 [20:06:14.871] Different program with same set of files
+Info 1027 [20:06:14.872] getCompletionData: Get current token: 0.013214997947216034
+Info 1028 [20:06:14.872] getCompletionData: Is inside comment: 0.003933001309633255
+Info 1029 [20:06:14.872] getCompletionData: Get previous token: 0.04393099993467331
+Info 1030 [20:06:14.872] getCompletionsAtPosition: isCompletionListBlocker: 0.013269003480672836
+Info 1031 [20:06:14.872] Returning an empty list because completion was requested in an invalid position.
+Info 1032 [20:06:14.899] getCompletionData: Get current token: 0.012334000319242477
+Info 1033 [20:06:14.899] getCompletionData: Is inside comment: 0.004616998136043549
+Info 1034 [20:06:14.899] getCompletionData: Get previous token: 0.03207799792289734
+Info 1035 [20:06:14.900] getCompletionsAtPosition: isCompletionListBlocker: 0.16073600202798843
+Info 1036 [20:06:14.900] Returning an empty list because completion was requested in an invalid position.
+Info 1037 [20:06:15.033] getCompletionData: Get current token: 0.012327000498771667
+Info 1038 [20:06:15.033] getCompletionData: Is inside comment: 0.004454001784324646
+Info 1039 [20:06:15.034] getCompletionData: Get previous token: 0.031133998185396194
+Info 1040 [20:06:15.034] getCompletionsAtPosition: isCompletionListBlocker: 0.018943000584840775
+Info 1041 [20:06:15.034] Returning an empty list because completion was requested in an invalid position.
+Info 1042 [20:06:15.034] getCompletionData: Get current token: 0.010081999003887177
+Info 1043 [20:06:15.034] getCompletionData: Is inside comment: 0.0033229999244213104
+Info 1044 [20:06:15.034] getCompletionData: Get previous token: 0.026954997330904007
+Info 1045 [20:06:15.034] getCompletionsAtPosition: isCompletionListBlocker: 0.007688000798225403
+Info 1046 [20:06:15.034] Returning an empty list because completion was requested in an invalid position.
+Info 1047 [20:06:15.581] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1048 [20:06:15.647] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 129 structureChanged: false structureIsReused:: Completely Elapsed: 65.66668400168419ms
+Info 1049 [20:06:15.647] Different program with same set of files
+Info 1050 [20:06:15.651] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1051 [20:06:15.690] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 130 structureChanged: false structureIsReused:: Completely Elapsed: 39.78932799771428ms
+Info 1052 [20:06:15.690] Different program with same set of files
+Info 1053 [20:06:16.079] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1054 [20:06:16.139] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 131 structureChanged: false structureIsReused:: Completely Elapsed: 59.62245300039649ms
+Info 1055 [20:06:16.139] Different program with same set of files
+Info 1056 [20:06:16.140] getCompletionData: Get current token: 0.013715002685785294
+Info 1057 [20:06:16.140] getCompletionData: Is inside comment: 0.004112999886274338
+Info 1058 [20:06:16.140] getCompletionData: Get previous token: 0.04499100148677826
+Info 1059 [20:06:16.140] getCompletionsAtPosition: isCompletionListBlocker: 0.01780499890446663
+Info 1060 [20:06:16.140] Returning an empty list because completion was requested in an invalid position.
+Info 1061 [20:06:16.169] getCompletionData: Get current token: 0.012929998338222504
+Info 1062 [20:06:16.169] getCompletionData: Is inside comment: 0.005885999649763107
+Info 1063 [20:06:16.169] getCompletionData: Get previous token: 0.03468399867415428
+Info 1064 [20:06:16.169] getCompletionsAtPosition: isCompletionListBlocker: 0.013234999030828476
+Info 1065 [20:06:16.169] Returning an empty list because completion was requested in an invalid position.
+Info 1066 [20:06:16.295] getCompletionData: Get current token: 0.011831998825073242
+Info 1067 [20:06:16.295] getCompletionData: Is inside comment: 0.004285000264644623
+Info 1068 [20:06:16.295] getCompletionData: Get previous token: 0.030205000191926956
+Info 1069 [20:06:16.296] getCompletionsAtPosition: isCompletionListBlocker: 0.012823998928070068
+Info 1070 [20:06:16.296] Returning an empty list because completion was requested in an invalid position.
+Info 1071 [20:06:16.298] getCompletionData: Get current token: 0.013896998018026352
+Info 1072 [20:06:16.298] getCompletionData: Is inside comment: 0.004556998610496521
+Info 1073 [20:06:16.298] getCompletionData: Get previous token: 0.03712499886751175
+Info 1074 [20:06:16.298] getCompletionsAtPosition: isCompletionListBlocker: 0.014722000807523727
+Info 1075 [20:06:16.298] Returning an empty list because completion was requested in an invalid position.
+Info 1076 [20:06:16.916] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1077 [20:06:16.970] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 132 structureChanged: false structureIsReused:: Completely Elapsed: 54.07037099823356ms
+Info 1078 [20:06:16.970] Different program with same set of files
+Info 1079 [20:06:18.278] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1080 [20:06:18.325] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 133 structureChanged: false structureIsReused:: Completely Elapsed: 46.54187300056219ms
+Info 1081 [20:06:18.326] Different program with same set of files
+Info 1082 [20:06:20.107] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1083 [20:06:20.170] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 134 structureChanged: false structureIsReused:: Completely Elapsed: 63.10888700187206ms
+Info 1084 [20:06:20.171] Different program with same set of files
+Info 1085 [20:06:20.171] getCompletionData: Get current token: 0.01429399847984314
+Info 1086 [20:06:20.171] getCompletionData: Is inside comment: 0.004245001822710037
+Info 1087 [20:06:20.171] getCompletionData: Get previous token: 0.0530490018427372
+Info 1088 [20:06:20.171] getCompletionsAtPosition: isCompletionListBlocker: 0.013971000909805298
+Info 1089 [20:06:20.171] Returning an empty list because completion was requested in an invalid position.
+Info 1090 [20:06:20.199] getCompletionData: Get current token: 0.012350000441074371
+Info 1091 [20:06:20.199] getCompletionData: Is inside comment: 0.004651002585887909
+Info 1092 [20:06:20.199] getCompletionData: Get previous token: 0.03158799931406975
+Info 1093 [20:06:20.200] getCompletionsAtPosition: isCompletionListBlocker: 0.012595999985933304
+Info 1094 [20:06:20.200] Returning an empty list because completion was requested in an invalid position.
+Info 1095 [20:06:20.321] getCompletionData: Get current token: 0.011535000056028366
+Info 1096 [20:06:20.321] getCompletionData: Is inside comment: 0.0051940008997917175
+Info 1097 [20:06:20.321] getCompletionData: Get previous token: 0.04069700092077255
+Info 1098 [20:06:20.321] getCompletionsAtPosition: isCompletionListBlocker: 0.011734999716281891
+Info 1099 [20:06:20.321] Returning an empty list because completion was requested in an invalid position.
+Info 1100 [20:06:20.331] getCompletionData: Get current token: 0.012032002210617065
+Info 1101 [20:06:20.331] getCompletionData: Is inside comment: 0.006438996642827988
+Info 1102 [20:06:20.331] getCompletionData: Get previous token: 0.029339998960494995
+Info 1103 [20:06:20.331] getCompletionsAtPosition: isCompletionListBlocker: 0.01682800054550171
+Info 1104 [20:06:20.331] Returning an empty list because completion was requested in an invalid position.
+Info 1105 [20:06:54.288] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1106 [20:06:54.394] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 135 structureChanged: false structureIsReused:: Completely Elapsed: 105.64912600070238ms
+Info 1107 [20:06:54.394] Different program with same set of files
+Info 1108 [20:06:54.955] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1109 [20:06:55.090] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 136 structureChanged: false structureIsReused:: Completely Elapsed: 135.1361650004983ms
+Info 1110 [20:06:55.090] Different program with same set of files
+Info 1111 [20:06:56.714] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1112 [20:06:56.770] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 137 structureChanged: false structureIsReused:: Completely Elapsed: 55.2331249974668ms
+Info 1113 [20:06:56.770] Different program with same set of files
+Info 1114 [20:06:57.076] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1115 [20:06:57.138] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 138 structureChanged: false structureIsReused:: Completely Elapsed: 61.81707400083542ms
+Info 1116 [20:06:57.138] Different program with same set of files
+Info 1117 [20:07:38.257] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1118 [20:07:38.352] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 139 structureChanged: false structureIsReused:: Completely Elapsed: 95.10192999988794ms
+Info 1119 [20:07:38.352] Different program with same set of files
+Info 1120 [20:07:45.279] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1121 [20:07:45.338] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 140 structureChanged: false structureIsReused:: Completely Elapsed: 59.15250199660659ms
+Info 1122 [20:07:45.338] Different program with same set of files
+Info 1123 [20:07:47.563] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1124 [20:07:47.627] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 141 structureChanged: false structureIsReused:: Completely Elapsed: 64.43990300223231ms
+Info 1125 [20:07:47.627] Different program with same set of files
+Info 1126 [20:07:47.632] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1127 [20:07:47.777] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 142 structureChanged: false structureIsReused:: Completely Elapsed: 144.9828419983387ms
+Info 1128 [20:07:47.777] Different program with same set of files
+Info 1129 [20:07:48.074] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1130 [20:07:48.187] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 143 structureChanged: false structureIsReused:: Completely Elapsed: 112.49374100193381ms
+Info 1131 [20:07:48.187] Different program with same set of files
+Info 1132 [20:07:48.608] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1133 [20:07:48.709] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 144 structureChanged: false structureIsReused:: Completely Elapsed: 100.87948299944401ms
+Info 1134 [20:07:48.709] Different program with same set of files
+Info 1135 [20:07:48.712] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1136 [20:07:48.756] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 145 structureChanged: false structureIsReused:: Completely Elapsed: 44.35641499981284ms
+Info 1137 [20:07:48.756] Different program with same set of files
+Info 1138 [20:07:48.962] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1139 [20:07:49.023] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 146 structureChanged: false structureIsReused:: Completely Elapsed: 61.08001999929547ms
+Info 1140 [20:07:49.023] Different program with same set of files
+Info 1141 [20:07:49.025] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1142 [20:07:49.067] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 147 structureChanged: false structureIsReused:: Completely Elapsed: 42.66719000041485ms
+Info 1143 [20:07:49.068] Different program with same set of files
+Info 1144 [20:07:49.510] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1145 [20:07:49.569] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 148 structureChanged: false structureIsReused:: Completely Elapsed: 58.522202998399734ms
+Info 1146 [20:07:49.569] Different program with same set of files
+Info 1147 [20:07:49.570] getCompletionData: Get current token: 0.014256998896598816
+Info 1148 [20:07:49.570] getCompletionData: Is inside comment: 0.004538998007774353
+Info 1149 [20:07:49.570] getCompletionData: Get previous token: 0.06716500222682953
+Info 1150 [20:07:49.570] getCompletionsAtPosition: isCompletionListBlocker: 0.022167999297380447
+Info 1151 [20:07:49.575] getExportInfoMap: cache hit
+Info 1152 [20:07:49.737] collectAutoImports: resolved 78 module specifiers, plus 0 ambient and -13442 from cache
+Info 1153 [20:07:49.737] collectAutoImports: response is complete
+Info 1154 [20:07:49.737] collectAutoImports: 162.44357899948955
+Info 1155 [20:07:49.737] getCompletionData: Semantic work: 166.98966400325298
+Info 1156 [20:07:49.752] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.966386999934912
+Info 1157 [20:07:49.961] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1158 [20:07:50.010] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 149 structureChanged: false structureIsReused:: Completely Elapsed: 48.154844999313354ms
+Info 1159 [20:07:50.010] Different program with same set of files
+Info 1160 [20:07:50.010] getCompletionData: Get current token: 0.014196999371051788
+Info 1161 [20:07:50.010] getCompletionData: Is inside comment: 0.004659000784158707
+Info 1162 [20:07:50.010] getCompletionData: Get previous token: 0.068657997995615
+Info 1163 [20:07:50.010] getCompletionsAtPosition: isCompletionListBlocker: 0.015380002558231354
+Info 1164 [20:07:50.015] getExportInfoMap: cache hit
+Info 1165 [20:07:50.038] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 8 from cache
+Info 1166 [20:07:50.039] collectAutoImports: response is complete
+Info 1167 [20:07:50.039] collectAutoImports: 23.838803000748158
+Info 1168 [20:07:50.039] getCompletionData: Semantic work: 28.152302000671625
+Info 1169 [20:07:50.048] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.403669998049736
+Info 1170 [20:07:51.067] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1171 [20:07:51.152] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 150 structureChanged: false structureIsReused:: Completely Elapsed: 84.82807599753141ms
+Info 1172 [20:07:51.152] Different program with same set of files
+Info 1173 [20:07:55.432] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1174 [20:07:55.474] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 151 structureChanged: false structureIsReused:: Completely Elapsed: 42.22926900163293ms
+Info 1175 [20:07:55.474] Different program with same set of files
+Info 1176 [20:07:56.710] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1177 [20:07:56.760] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 152 structureChanged: false structureIsReused:: Completely Elapsed: 49.51472099870443ms
+Info 1178 [20:07:56.760] Different program with same set of files
+Info 1179 [20:07:57.638] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1180 [20:07:57.698] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 153 structureChanged: false structureIsReused:: Completely Elapsed: 59.63410599902272ms
+Info 1181 [20:07:57.698] Different program with same set of files
+Info 1182 [20:08:56.386] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1183 [20:08:56.502] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 154 structureChanged: false structureIsReused:: Completely Elapsed: 116.62861699983478ms
+Info 1184 [20:08:56.502] Different program with same set of files
+Info 1185 [21:11:43.454] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1186 [21:11:43.574] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 155 structureChanged: false structureIsReused:: Completely Elapsed: 120.29529199749231ms
+Info 1187 [21:11:43.574] Different program with same set of files
+Info 1188 [21:11:49.342] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1189 [21:11:49.404] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 156 structureChanged: false structureIsReused:: Completely Elapsed: 61.850850000977516ms
+Info 1190 [21:11:49.404] Different program with same set of files
+Info 1191 [21:11:52.818] Starting updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json
+Info 1192 [21:11:52.921] Finishing updateGraphWorker: Project: /home/rodrigo/Workspace/wikidex-learning-react/jsconfig.json Version: 157 structureChanged: false structureIsReused:: Completely Elapsed: 101.97888400033116ms
+Info 1193 [21:11:52.921] Different program with same set of files

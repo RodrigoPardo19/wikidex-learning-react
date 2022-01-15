@@ -1,3 +1,4 @@
+import { useState } from "react"
 import styled from "styled-components"
 import InputGeneration from "./InputGeneration"
 
@@ -17,24 +18,84 @@ const Generations = styled.div`
   flex-direction: column;
   gap: 0.7rem;
 `
+const INITIAL_GENERATIONS = [
+  {
+    generation: "Primera Generación",
+    number: "gen-1",
+    isChecked: false,
+    pokemons: 9,
+    start: 0,
+  },
+  {
+    generation: "Segunda Generación",
+    number: "gen-2",
+    isChecked: false,
+    pokemons: 9,
+    start: 151,
+  },
+  {
+    generation: "Tercera Generación",
+    number: "gen-3",
+    isChecked: false,
+    pokemons: 9,
+    start: 251,
+  },
+  {
+    generation: "Cuarta Generación",
+    number: "gen-4",
+    isChecked: false,
+    pokemons: 9,
+    start: 386,
+  },
+  {
+    generation: "Quinta Generación",
+    number: "gen-5",
+    isChecked: false,
+    pokemons: 9,
+    start: 494,
+  },
+  {
+    generation: "Sexta Generación",
+    number: "gen-6",
+    isChecked: false,
+    pokemons: 9,
+    start: 649,
+  },
+  {
+    generation: "Séptima Generación",
+    number: "gen-7",
+    isChecked: false,
+    pokemons: 9,
+    start: 721,
+  },
+]
 
-const PokemonGenerationMenu = () => {
-  const generations = [
-    { generation: "Primera Generación", color: "#ff8123" },
-    { generation: "Segunda Generación", color: "#90ff74" },
-    { generation: "Tercera Generación", color: "#ace1fd" },
-    { generation: "Cuarta Generación", color: "#f8e58c" },
-    { generation: "Quinta Generación", color: "#cf87b9" },
-    { generation: "Sexta Generación", color: "#d18647" },
-    { generation: "Séptima Generación", color: "#ffb5c5" },
-  ]
+const PokemonGenerationMenu = ({ handleKeywords }) => {
+  const [generations, setGenerations] = useState(INITIAL_GENERATIONS)
+
+  const handleIsChecked = (value) => {
+    const gens = [...INITIAL_GENERATIONS]
+    const generationsUpdated = gens.map((g) => {
+      if (value === g.generation) {
+        handleKeywords({ total: g.pokemons, start: g.start })
+        return { ...g, isChecked: true }
+      } else {
+        return g
+      }
+    })
+    setGenerations(generationsUpdated)
+  }
 
   return (
     <Container>
-      Seleccione la generación:
+      Selecciona la generación:
       <Generations>
         {generations.map((g) => (
-          <InputGeneration key={g.generation} {...g} />
+          <InputGeneration
+            key={g.generation}
+            {...g}
+            handleChecked={handleIsChecked}
+          />
         ))}
       </Generations>
     </Container>

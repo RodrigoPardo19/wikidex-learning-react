@@ -1,6 +1,5 @@
-const PokeballInput = () => {
+const PokeballIcon = ({ checked }) => {
   return (
-    // <input type="checkbox" />
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-pokeball"
@@ -8,7 +7,7 @@ const PokeballInput = () => {
       height="44"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
-      stroke="#ffffff"
+      stroke={checked ? "#ffffff" : "#ff055b"}
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -21,4 +20,4 @@ const PokeballInput = () => {
   )
 }
 
-export default PokeballInput
+export default PokeballIcon

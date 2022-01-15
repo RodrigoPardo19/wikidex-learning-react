@@ -1,31 +1,38 @@
 import styled from "styled-components"
-import PokeballInput from "./PokeballInput"
+import PokeballIcon from "./PokeballIcon"
 
-const Generation = styled.div`
+const Generation = styled.label`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  width: 100%;
+  width: 96%;
   height: 3rem;
-  border: 2px solid transparent;
+  padding-left: 0.5rem;
+  border: 2px solid #ff055b;
   border-radius: 1rem;
-  background-color: ${(props) => props.color};
+  background-color: ${(props) => (props.checked ? "#ff055b" : "#fefefe")};
+  color: ${(props) => (props.checked ? "#fefefe" : "#ff055b")};
   cursor: pointer;
 
   &:hover {
-    border: #9e9e9e solid 2px;
+    border: #7f33a1 solid 2px;
   }
 `
+const Input = styled.input``
 
-const Label = styled.label`
-  color: #fff;
-`
-
-const InputGeneration = ({ generation, color }) => {
+const InputGeneration = ({ generation, number, isChecked, handleChecked }) => {
   return (
-    <Generation color={color}>
-      <PokeballInput />
-      <Label>{generation}</Label>
+    <Generation htmlFor={number} checked={isChecked}>
+      <PokeballIcon checked={isChecked} />
+      <Input
+        type="radio"
+        id={number}
+        name="generations"
+        value={generation}
+        onChange={(e) => handleChecked(e.target.value)}
+        hidden={true}
+      />
+      {generation}
     </Generation>
   )
 }
