@@ -21,7 +21,7 @@ const SpinnerContainer = styled.div`
   align-items: center
   width: 100%;
 `
-const Spinner = (src, alt) => {
+const Spinner = ({ src, alt }) => {
   return (
     <SpinnerContainer>
       <Image src={src} alt={alt} />

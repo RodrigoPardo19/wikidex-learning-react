@@ -1,3 +1,4 @@
+import { memo } from "react"
 import styled from "styled-components"
 
 const Header = styled.header`
@@ -13,4 +14,4 @@ const HeaderSection = ({ title }) => {
   )
 }
 
-export default HeaderSection
+export default memo(HeaderSection)

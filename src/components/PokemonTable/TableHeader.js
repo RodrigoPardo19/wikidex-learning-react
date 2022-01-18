@@ -1,4 +1,6 @@
-const { default: styled } = require("styled-components")
+import { memo } from "react"
+import { isEqual } from "lodash"
+import styled from "styled-components"
 
 const TableHead = styled.th`
   font-weight: 300;
@@ -26,4 +28,4 @@ const TableHeader = ({ headers }) => {
   )
 }
 
-export default TableHeader
+export default memo(TableHeader, isEqual)

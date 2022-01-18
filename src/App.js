@@ -1,13 +1,17 @@
-import CommunityBar from "./components/CommunityBar/CommunityBar"
-import NavBar from "./components/Navbar/NavBar"
-import PokemonList from "./components/PokemonList/PokemonList"
+import { Route, Routes } from "react-router-dom"
+import PokemonPage from "./pages/PokemonPage"
+import PokemonsListPage from "./pages/PokemonsListPage"
+import TypePage from "./pages/TypePage"
 
 const App = () => {
   return (
     <div className="App">
-      <NavBar />
-      <CommunityBar />
-      <PokemonList />
+      <Routes>
+        <Route path="/" element={<PokemonsListPage />}>
+          <Route path="/pokemons" element={<PokemonPage />} />
+          <Route path="/types" element={<TypePage />} />
+        </Route>
+      </Routes>
     </div>
   )
 }

@@ -25,15 +25,18 @@ const Table = styled.table`
 
 const PokemonTable = ({ keywords }) => {
   const [pokemons, setPokemons] = useState([])
+  const [loading, setLoading] = useState(true)
   const { total, start } = keywords
 
   useEffect(() => {
+    setLoading(true)
     fetchPokemons(total, start).then((pokes) => {
       setPokemons([...pokes])
+      setLoading(false)
     })
   }, [total, start])
 
-  if (pokemons.length === 0)
+  if (loading)
     return <Spinner src="./images/pokeball-spinner.png" alt="loading" />
 
   return (
